@@ -11,12 +11,12 @@ julia --threads auto src/OptiMS.jl \
   --params_to_optimize all \
   --metric accuracy \
   --max_steps 20 \
-  --LB_wf_mz 0.0 \
-  --UB_wf_mz 5.0 \
-  --LB_wf_intensity 0.0 \
-  --UB_wf_intensity 5.0 \
   --LB_LET_thresh 0.0 \
-  --UB_LET_thresh 5.0
-
-
+  --UB_LET_thresh 5.0 \
+  --LB_noise_thresh 0.0 \
+  --UB_noise_thresh 1.0 \
+  --LB_wf_int 0.0 \
+  --UB_wf_int 5.0 \
+  --LB_wf_mz 0.0 \
+  --UB_wf_mz 5.0
 

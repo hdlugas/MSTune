@@ -30,6 +30,12 @@ The following two spectrum preprocessing transformations are offered:
     and has intensities given by
     $I^{\star}:=(m_{1}^{\text{a}}\cdot x_{1}^{\text{b}},m_{2}^{\text{a}}\cdot x_{2}^{\text{b}},...,m_{n}^{\text{a}}\cdot x_{n}^{\text{b}})$.
 
+-   Noise Removal: Given a user-defined noise removal parameter $r$ and
+    a spectrum $I$ with intensities $(x_{1},x_{2},...,x_{n})$, noise
+    removal removes peaks from $I$ with
+    $x_{j}< r\cdot\text{max}(\{x_{1},x_{2},...,x_{n}\})$ for
+    $j\in\{1,2,...,n\}$.
+
 -   Low-Entropy Transformation: Given a user-defined low-entropy
     threshold parameter $T$ and spectrum $I$ with intensities
     $(x_{1},x_{2},...,x_{n})$, $\sum_{i=1}^nx_i = 1$, and Shannon
@@ -41,7 +47,7 @@ The following two spectrum preprocessing transformations are offered:
     $x_{i}^{\star}=x_{i}^{\frac{1+H_{Shannon}(I)}{1+T}}$ if
     $H_{Shannon}(I)<T$.
 
-Thus, there are two weight factor parameters and one low-entropy threshold parameter one can tweak.
+Thus, there are two weight factor parameters , one noise removal threshold parameter, and one low-entropy threshold parameter one can tweak.
 
 Given a pair of processed spectra intensities
 $I=(a_{1},a_{2},...,a_{n}), J=(b_{1},b_{2},...,b_{n})\in\mathbb{R}^{n}$
@@ -79,26 +85,7 @@ The complete usage instructions for OptiMS are:
 Help Message for OptiMS.jl
 
 Usage:
-  julia OptiMS.jl \
-    --query_data <string> \
-    --reference_data <string> \
-    --output <string> \
-    --optimization_method <string> \
-    --metric <string> \
-    --params_to_optimize <string> \
-    --spectrum_preprocessing_order <string> \
-    --n_grid_points <int> \
-    --max_steps <int> \
-    --LB_wf_mz <float> \
-    --UB_wf_mz <float> \
-    --LB_wf_intensity <float> \
-    --UB_wf_intensity <float> \
-    --LB_LET_thresh <float> \
-    --UB_LET_thresh <float> \
-    --wf_mz <float> \
-    --wf_intensity <float> \
-    --LET_thresh <float> \
-    --threads <int>
+  julia OptiMS.jl --query_data <string> --reference_data <string> --output <string> --optimization_method <string> --metric <string> --params_to_optimize <string> --spectrum_preprocessing_order <string> --LB_LET_thresh <float> --UB_LET_thresh <float> --LB_noise_thresh <float> --UB_noise_thresh <float> --LB_wf_int <float> --UB_wf_int <float> --LB_wf_mz <float> --UB_wf_mz <float> --LET_thresh <float> --noise_thresh <float> --wf_int <float> --wf_mz <float> --threads <int> --n_grid_points <int> --max_steps <int>
 
 
 Arguments:
@@ -107,20 +94,23 @@ Arguments:
   --output                        Path to output TXT file (required).
   --optimization_method           Optimization approach (optional, options=[DE,grid,none], default=DE).
   --metric                        Quantity to maximize in the objective function (optional, options=[accuracy,MRR], default=accuracy).
-  --params_to_optimize            String denoting the parameters to optimize (optional, options='all','wf_mz','wf_int','LET_thresh','wf_mz,wf_int','wf_mz,LET_thresh','wf_int,LET_thresh', default='all').
-  --spectrum_preprocessing_order  String denoting the order of spectrum preprocessing transformations; format must be a string with 0-2 characters of either L (low-entropy trannsformation) and/or W (weight-factor-transformation) (optional, default: 'WL').
+  --params_to_optimize            String denoting the parameters to optimize (optional, options='all','LET_thresh','noise_thresh','wf_int','wf_mz', default='all').
+  --spectrum_preprocessing_order  String denoting the order of spectrum preprocessing transformations; format must be a string with 0-3 characters of either L (low-entropy trannsformation) and/or W (weight-factor-transformation) and/or N (noise removal) (optional, default: 'NWL').
   --threads                       Number of threads to use (optional, default=1).
   --n_grid_points                 Number of grid points to use for each parameter; only applicable for grid-based optimization (optional, default=2).
   --max_steps                     Maximum number of iterations allowed in differential evolution optimization; only applicable for DE optimization_method (optional, default=5).
-  --LB_wf_mz                      Float denoting the lower bound of the mass/charge weight factor parameter (optional, default=0.0).
-  --UB_wf_mz                      Float denoting the upper bound of the mass/charge weight factor parameter (optional, default=1.3).
-  --LB_wf_intensity               Float denoting the lower bound of the intensity weight factor parameter (optional, default=0.51).
-  --UB_wf_intensity               Float denoting the upper bound of the intensity weight factor parameter (optional, default=1.0).
   --LB_LET_thresh                 Float denoting the lower bound of the low-entropy threshold parameter (optional, default=0.0).
-  --UB_LET_thresh                 Float denoting the upper bound of the low-entropy threshold parameter (optional, default=3.0).
-  --wf_mz                         Float denoting the mass/charge weight factor parameter; only applicable for optimization_method = none (optional, default=0.0).
-  --wf_intensity                  Float denoting the intensity weight factor parameter; only applicable for optimization_method = none (optional, default=1.0).
+  --UB_LET_thresh                 Float denoting the upper bound of the low-entropy threshold parameter (optional, default=5.0).
+  --LB_noise_thresh               Float denoting the lower bound of the noise removal threshold parameter (optional, default=0.0).
+  --UB_noise_thresh               Float denoting the upper bound of the noise removal threshold parameter (optional, default=1.0).
+  --LB_wf_int                     Float denoting the lower bound of the intensity weight factor parameter (optional, default=0.0).
+  --UB_wf_int                     Float denoting the upper bound of the intensity weight factor parameter (optional, default=5.0).
+  --LB_wf_mz                      Float denoting the lower bound of the mass/charge weight factor parameter (optional, default=0.0).
+  --UB_wf_mz                      Float denoting the upper bound of the mass/charge weight factor parameter (optional, default=5.0).
   --LET_thresh                    Float denoting the low-entropy threshold parameter; only applicable for optimization_method = none (optional, default=0.0).
+  --noise_thresh                  Float denoting the noise removal threshold parameter; only applicable for optimization_method = none (optional, default=0.1).
+  --wf_int                        Float denoting the intensity weight factor parameter; only applicable for optimization_method = none (optional, default=1.0).
+  --wf_mz                         Float denoting the mass/charge weight factor parameter; only applicable for optimization_method = none (optional, default=0.0).
   --help                          Show this help message.
 ```
 
@@ -136,12 +126,14 @@ julia --threads auto src/OptiMS.jl \
   --params_to_optimize all \
   --metric accuracy \
   --max_steps 20 \
-  --LB_wf_mz 0.0 \
-  --UB_wf_mz 5.0 \
-  --LB_wf_intensity 0.0 \
-  --UB_wf_intensity 5.0 \
   --LB_LET_thresh 0.0 \
-  --UB_LET_thresh 5.0
+  --UB_LET_thresh 5.0 \
+  --LB_noise_thresh 0.0 \
+  --UB_noise_thresh 1.0 \
+  --LB_wf_int 0.0 \
+  --UB_wf_int 5.0 \
+  --LB_wf_mz 0.0 \
+  --UB_wf_mz 5.0
 ```
 
 <a name="grid-search"></a>
@@ -156,12 +148,14 @@ julia --threads auto src/OptiMS.jl \
   --params_to_optimize all \
   --metric MRR \
   --n_grid_points 3 \
-  --LB_wf_mz 0.0 \
-  --UB_wf_mz 5.0 \
-  --LB_wf_intensity 0.0 \
-  --UB_wf_intensity 5.0 \
   --LB_LET_thresh 0.0 \
   --UB_LET_thresh 5.0
+  --LB_noise_thresh 0.0 \
+  --UB_noise_thresh 1.0 \
+  --LB_wf_int 0.0 \
+  --UB_wf_int 5.0 \
+  --LB_wf_mz 0.0 \
+  --UB_wf_mz 5.0
 ```
 
 <a name="run-compound-identification"></a>
@@ -173,7 +167,9 @@ julia --threads auto src/OptiMS.jl \
   --reference_data toy_example/data/reference_data.txt \
   --output toy_example/output_similarity_scores.txt \
   --optimization_method none \
-  --wf_mz 0.5 \
-  --wf_intensity 1.5 \
-  --LET_thresh 3.0
+  --LET_thresh 3.0 \
+  --noise_thresh 0.1 \
+  --wf_int 1.5 \
+  --wf_mz 0.5
 ```
+

@@ -8,7 +8,8 @@ julia --threads auto src/OptiMS.jl \
   --reference_data toy_example/data/reference_data.txt \
   --output toy_example/output_similarity_scores.txt \
   --optimization_method none \
-  --wf_mz 0.5 \
+  --LET_thresh 3.0 \
+  --noise_thresh 0.1 \
   --wf_intensity 1.5 \
-  --LET_thresh 3.0
+  --wf_mz 0.5
 

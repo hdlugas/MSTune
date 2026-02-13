@@ -25,33 +25,37 @@ spectrum_preprocessing_order = args["--spectrum_preprocessing_order"]
 num_threads = parse(Int, args["--threads"])
 n_grid_points = parse(Int, args["--n_grid_points"])
 max_steps = parse(Int, args["--max_steps"])
-LB_wf_mz = parse(Float64, args["--LB_wf_mz"])
-UB_wf_mz = parse(Float64, args["--UB_wf_mz"])
-LB_wf_intensity = parse(Float64, args["--LB_wf_intensity"])
-UB_wf_intensity = parse(Float64, args["--UB_wf_intensity"])
 LB_LET_thresh = parse(Float64, args["--LB_LET_thresh"])
 UB_LET_thresh = parse(Float64, args["--UB_LET_thresh"])
-wf_mz = parse(Float64, args["--wf_mz"])
-wf_intensity = parse(Float64, args["--wf_intensity"])
+LB_noise_thresh = parse(Float64, args["--LB_noise_thresh"])
+UB_noise_thresh = parse(Float64, args["--UB_noise_thresh"])
+LB_wf_mz = parse(Float64, args["--LB_wf_mz"])
+UB_wf_mz = parse(Float64, args["--UB_wf_mz"])
+LB_wf_int = parse(Float64, args["--LB_wf_int"])
+UB_wf_int = parse(Float64, args["--UB_wf_int"])
 LET_thresh = parse(Float64, args["--LET_thresh"])
+noise_thresh = parse(Float64, args["--noise_thresh"])
+wf_int = parse(Float64, args["--wf_int"])
+wf_mz = parse(Float64, args["--wf_mz"])
 
 if nthreads() < num_threads
     println("Warning: Julia was started with $(nthreads()) threads, cannot increase to $num_threads")
 end
 
-const PARAM_NAMES = ["wf_mz", "wf_int", "LET_thresh"]
+
+const PARAM_NAMES = ["LET_thresh", "noise_thresh", "wf_int", "wf_mz"]
 
 function parse_params_to_optimize(s::AbstractString)
     s = strip(s)
     if s == "all"
-        return collect(1:3)
+        return collect(1:4)
     end
     parts = split(s, ',')
     parts = strip.(parts)
-    name_to_idx = Dict("wf_mz" => 1, "wf_int" => 2, "wf_intensity" => 2, "LET_thresh" => 3)
+    name_to_idx = Dict("LET_thresh" => 1, "noise_thresh" => 2, "wf_int" => 3, "wf_mz" => 4)
     idxs = Int[]
     for p in parts
-        haskey(name_to_idx, p) || error("Unknown param in --params_to_optimize: '$p'. Allowed: all, wf_mz, wf_int, LET_thresh (comma-separated).")
+        haskey(name_to_idx, p) || error("Unknown param in --params_to_optimize: '$p'. Allowed: all, LET_thresh, noise_thresh, wf_int, wf_mz (comma-separated).")
         push!(idxs, name_to_idx[p])
     end
     idxs = unique(idxs)
@@ -61,9 +65,9 @@ end
 
 opt_idxs = parse_params_to_optimize(params_to_optimize)
 fix_idxs = setdiff(collect(1:3), opt_idxs)
-p_fixed_full = Float64[wf_mz, wf_intensity, LET_thresh]
-LB_full = Float64[LB_wf_mz, LB_wf_intensity, LB_LET_thresh]
-UB_full = Float64[UB_wf_mz, UB_wf_intensity, UB_LET_thresh]
+p_fixed_full = Float64[LET_thresh, noise_thresh, wf_int, wf_mz]
+LB_full = Float64[LB_LET_thresh, LB_noise_thresh, LB_wf_int, LB_wf_mz]
+UB_full = Float64[UB_LET_thresh, UB_noise_thresh, UB_wf_int, UB_wf_mz]
 bounds_free = [(LB_full[i], UB_full[i]) for i in opt_idxs]
 
 function expand_params(p_free::AbstractVector{<:Real}, p_fixed_full::Vector{Float64}, opt_idxs::Vector{Int})
@@ -135,32 +139,32 @@ elseif optimization_method == "grid"
     grid_full = [
         collect(range(LB_full[1], UB_full[1]; length=n_grid_points)),
         collect(range(LB_full[2], UB_full[2]; length=n_grid_points)),
-        collect(range(LB_full[3], UB_full[3]; length=n_grid_points))
+        collect(range(LB_full[3], UB_full[3]; length=n_grid_points)),
+        collect(range(LB_full[4], UB_full[4]; length=n_grid_points))
     ]
-
     grids_free = [grid_full[i] for i in opt_idxs]
-
     combos = collect(Iterators.product(grids_free...))
     n = length(combos)
-
-    wf_mz_out   = Vector{Float64}(undef, n)
-    wf_int_out  = Vector{Float64}(undef, n)
     LET_out     = Vector{Float64}(undef, n)
+    noise_out     = Vector{Float64}(undef, n)
+    wf_int_out  = Vector{Float64}(undef, n)
+    wf_mz_out   = Vector{Float64}(undef, n)
     fit_out     = Vector{Float64}(undef, n)
 
     Threads.@threads for i in 1:n
         p_free = collect(combos[i])
         p_full = expand_params(p_free, p_fixed_full, opt_idxs)
         fit = objective_full(p_full)
-        wf_mz_out[i]  = p_full[1]
-        wf_int_out[i] = p_full[2]
-        LET_out[i]    = p_full[3]
+        LET_out[i]    = p_full[1]
+        noise_out[i]  = p_full[2]
+        wf_int_out[i] = p_full[3]
+        wf_mz_out[i]  = p_full[4]
         fit_out[i]    = fit
     end
-    grid_results_tmp = DataFrame(wf_mz = wf_mz_out, wf_int = wf_int_out, LET_thresh = LET_out, fitness = fit_out)
+    grid_results_tmp = DataFrame(LET_thresh=LET_out, noise_thresh=noise_out, wf_int=wf_int_out, wf_mz=wf_mz_out, fitness=fit_out)
     grid_results = sort!(grid_results_tmp, :fitness, rev=true)
 elseif optimization_method == "none"
-    S = get_scores(Q0, R0; order=spectrum_preprocessing_order, wf_mz=wf_mz, wf_int=wf_intensity, LET_thresh=LET_thresh, mzs=mzs)
+    S = get_scores(Q0, R0; order=spectrum_preprocessing_order, LET_thresh=LET_thresh, noise_thresh=noise_thresh, wf_int=wf_int, wf_mz=wf_mz, mzs=mzs)
     df_scores = DataFrame(S, r_ids_all)
     insertcols!(df_scores, 1, :query_id => q_ids_all)
 end
@@ -168,16 +172,17 @@ end
 
 if optimization_method == "DE"
     open(output, "w") do io
-        header = ["step", "evals", "fitness", "wf_mz", "wf_int", "LET_thresh"]
+        header = ["step", "evals", "fitness", "LET_thresh", "noise_thresh", "wf_int", "wf_mz"]
         write(io, join(header, '\t') * "\n")
-	for (step, rec) in enumerate(fitness_progress_history)
+        for (step, rec) in enumerate(fitness_progress_history)
             row = String[
-	        string(step-1),
+                string(step-1),
                 string(rec.evals),
                 string(rec.fitness),
                 string(rec.params_full[1]),
                 string(rec.params_full[2]),
-                string(rec.params_full[3])
+                string(rec.params_full[3]),
+                string(rec.params_full[4])
             ]
             write(io, join(row, '\t') * "\n")
         end
