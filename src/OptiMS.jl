@@ -9,8 +9,6 @@ using Statistics
 using Random
 using Base.Threads
 using BlackBoxOptim
-rng = MersenneTwister(1)
-const K = 5
 
 
 ##################################### parse command-line arguments #####################################
@@ -22,9 +20,14 @@ optimization_method = args["--optimization_method"]
 metric = args["--metric"]
 params_to_optimize = args["--params_to_optimize"]
 spectrum_preprocessing_order = args["--spectrum_preprocessing_order"]
+crossvalidation = parse(Bool, args["--crossvalidation"])
+n_folds = parse(Int, args["--n_folds"])
+bootstrap_query = parse(Bool, args["--bootstrap_query"])
+random_seed = parse(Int, args["--random_seed"])
 num_threads = parse(Int, args["--threads"])
-n_grid_points = parse(Int, args["--n_grid_points"])
 max_steps = parse(Int, args["--max_steps"])
+pop_size = parse(Int, args["--pop_size"])
+n_grid_points = parse(Int, args["--n_grid_points"])
 LB_LET_thresh = parse(Float64, args["--LB_LET_thresh"])
 UB_LET_thresh = parse(Float64, args["--UB_LET_thresh"])
 LB_noise_thresh = parse(Float64, args["--LB_noise_thresh"])
@@ -37,6 +40,10 @@ LET_thresh = parse(Float64, args["--LET_thresh"])
 noise_thresh = parse(Float64, args["--noise_thresh"])
 wf_int = parse(Float64, args["--wf_int"])
 wf_mz = parse(Float64, args["--wf_mz"])
+
+Random.seed!(random_seed)
+rng = MersenneTwister(random_seed)
+const K = n_folds
 
 if nthreads() < num_threads
     println("Warning: Julia was started with $(nthreads()) threads, cannot increase to $num_threads")
@@ -82,7 +89,16 @@ end
 
 
 ##################################### import data #####################################
-df_query_raw = CSV.read(query_data, DataFrame; delim='\t')
+df_query_raw_tmp = CSV.read(query_data, DataFrame; delim='\t')
+
+if bootstrap_query
+    n_tmp = nrow(df_query_raw_tmp)
+    idxs = sample(1:n_tmp, n_tmp; replace=true)
+    df_query_raw = df_query_raw_tmp[idxs,:]
+else
+    df_query_raw = df_query_raw_tmp
+end
+
 df_ref_raw = CSV.read(reference_data, DataFrame; delim='\t', pool=false, missingstring=["","NA","N/A"], stringtype=String)
 q_ids_all = string.(df_query_raw[!, :id])
 r_ids_all = string.(df_ref_raw[!, :id])
@@ -100,11 +116,20 @@ R0 = Matrix{Float64}(df_ref_raw[:, 2:end])
 m = size(Q0, 2)
 @assert m == size(R0, 2) "Query and reference must have same number of columns"
 mzs = collect(1.0:m)
-folds = make_folds(size(Q0,1), K; rng=rng)
-if metric == "accuracy"
-    objective_full = objective_acc
+
+if crossvalidation
+    folds = make_folds(size(Q0,1), K; rng=rng)
+    if metric == "accuracy"
+	objective_full = objective_acc_cv
+    else
+	objective_full = objective_MRR_cv
+    end
 else
-    objective_full = objective_MRR
+    if metric == "accuracy"
+	objective_full = objective_acc_no_cv
+    else
+	objective_full = objective_MRR_no_cv
+    end
 end
 
 objective_free(p_free) = objective_full(expand_params(p_free, p_fixed_full, opt_idxs))
@@ -112,6 +137,7 @@ objective_free(p_free) = objective_full(expand_params(p_free, p_fixed_full, opt_
 
 if optimization_method == "DE"
     fitness_progress_history = Vector{NamedTuple{(:evals, :fitness, :params_full), Tuple{Int, Float64, Vector{Float64}}}}()
+    initial_guess = [LET_thresh, noise_thresh, wf_int, wf_mz]
 
     callback = oc -> begin
         p_free_best = BlackBoxOptim.best_candidate(oc)
@@ -125,16 +151,17 @@ if optimization_method == "DE"
     end
 
     res = bboptimize(
-        objective_free;
+        objective_free, initial_guess;
         SearchRange = bounds_free,
         NumDimensions = length(bounds_free),
         Method = :de_rand_1_bin,
-        PopulationSize = 50,
+        PopulationSize = pop_size,
         MaxSteps = max_steps,
         CallbackFunction = callback,
         CallbackInterval = 0.0,
         rng = rng
     )
+
 elseif optimization_method == "grid"
     grid_full = [
         collect(range(LB_full[1], UB_full[1]; length=n_grid_points)),
@@ -155,11 +182,11 @@ elseif optimization_method == "grid"
         p_free = collect(combos[i])
         p_full = expand_params(p_free, p_fixed_full, opt_idxs)
         fit = objective_full(p_full)
-        LET_out[i]    = p_full[1]
-        noise_out[i]  = p_full[2]
+        LET_out[i] = p_full[1]
+        noise_out[i] = p_full[2]
         wf_int_out[i] = p_full[3]
-        wf_mz_out[i]  = p_full[4]
-        fit_out[i]    = fit
+        wf_mz_out[i] = p_full[4]
+        fit_out[i] = fit
     end
     grid_results_tmp = DataFrame(LET_thresh=LET_out, noise_thresh=noise_out, wf_int=wf_int_out, wf_mz=wf_mz_out, fitness=fit_out)
     grid_results = sort!(grid_results_tmp, :fitness, rev=true)

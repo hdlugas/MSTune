@@ -13,10 +13,10 @@ OptiMS is a Julia-based command-line tool for tuning parameters involved in prep
 
 <a name="install-dependencies"></a>
 ## 1. Install dependencies
-The Julia packages required to run OptiMS are BlackBoxOptim, CSV, DataFrames, LinearAlgebra, Random, and Statistics. These dependencies can be installed with the Julia command:
+The Julia packages required to run OptiMS are BlackBoxOptim, CSV, DataFrames, LinearAlgebra, Random, Statistics, and StatsBase. These dependencies can be installed with the Julia command:
 
 ```
-using Pkg; Pkg.add(["BlackBoxOptim", "CSV", "DataFrames", "LinearAlgebra","Random", "Statistics"])
+using Pkg; Pkg.add(["BlackBoxOptim", "CSV", "DataFrames", "LinearAlgebra","Random", "Statistics", "StatsBase"])
 ```
 
 <a name="param-descriptions"></a>
@@ -85,8 +85,9 @@ The complete usage instructions for OptiMS are:
 Help Message for OptiMS.jl
 
 Usage:
-  julia OptiMS.jl --query_data <string> --reference_data <string> --output <string> --optimization_method <string> --metric <string> --params_to_optimize <string> --spectrum_preprocessing_order <string> --LB_LET_thresh <float> --UB_LET_thresh <float> --LB_noise_thresh <float> --UB_noise_thresh <float> --LB_wf_int <float> --UB_wf_int <float> --LB_wf_mz <float> --UB_wf_mz <float> --LET_thresh <float> --noise_thresh <float> --wf_int <float> --wf_mz <float> --threads <int> --n_grid_points <int> --max_steps <int>
-
+  julia OptiMS.jl --query_data <string> --reference_data <string> --output <string> --optimization_method <string> --metric <string> --crossvalidation <boolean> --n_folds <int> --bootstrap_query <boolean> --random_seed <int> --params_to_optimize <string> --spectrum_preprocessing_order <string> --LB_LET_thresh <float> --UB_LET_thresh <float> --LB_noise_thresh <float> --UB_noise_thresh <float> --LB_wf_int <float> --UB_wf_int <float> --LB_wf_mz <float> --UB_wf_mz <float> --LET_thresh <float> --noise_thresh <float> --wf_int <float> --wf_mz <float> --threads <int> --max_steps <int>
+    --pop_size <int>
+    --n_grid_points <int> 
 
 Arguments:
   --query_data                    Path to input TXT file of query dataset (required).
@@ -94,11 +95,16 @@ Arguments:
   --output                        Path to output TXT file (required).
   --optimization_method           Optimization approach (optional, options=[DE,grid,none], default=DE).
   --metric                        Quantity to maximize in the objective function (optional, options=[accuracy,MRR], default=accuracy).
+  --crossvalidation               Boolean indicating whether or not to perform 5-fold cross-validation inside the objective function (optional, options=[true,false], default=true).
+  --n_folds                       Number folds to use for cross-validation. Only applicable for crossvalidation is 'true' and optimization_method is not 'none' (optional, default=5).
+  --bootstrap_query               Boolean indicating whether or not to construct query dataset of same size from resampling query spectra with replacement; only useful for computing confidence intervals of parameter estimates (optional, options=[true,false], default=false).
+  --random_seed                   Random seed to be used in all computations with a stochastic component (optional, default=1).
   --params_to_optimize            String denoting the parameters to optimize (optional, options='all','LET_thresh','noise_thresh','wf_int','wf_mz', default='all').
   --spectrum_preprocessing_order  String denoting the order of spectrum preprocessing transformations; format must be a string with 0-3 characters of either L (low-entropy trannsformation) and/or W (weight-factor-transformation) and/or N (noise removal) (optional, default: 'NWL').
   --threads                       Number of threads to use (optional, default=1).
-  --n_grid_points                 Number of grid points to use for each parameter; only applicable for grid-based optimization (optional, default=2).
   --max_steps                     Maximum number of iterations allowed in differential evolution optimization; only applicable for DE optimization_method (optional, default=5).
+  --pop_size                      Population size in differential evolution optimization; only applicable for DE optimization_method (optional, default=50).
+  --n_grid_points                 Number of grid points to use for each parameter; only applicable for grid-based optimization (optional, default=2).
   --LB_LET_thresh                 Float denoting the lower bound of the low-entropy threshold parameter (optional, default=0.0).
   --UB_LET_thresh                 Float denoting the upper bound of the low-entropy threshold parameter (optional, default=5.0).
   --LB_noise_thresh               Float denoting the lower bound of the noise removal threshold parameter (optional, default=0.0).
@@ -107,10 +113,10 @@ Arguments:
   --UB_wf_int                     Float denoting the upper bound of the intensity weight factor parameter (optional, default=5.0).
   --LB_wf_mz                      Float denoting the lower bound of the mass/charge weight factor parameter (optional, default=0.0).
   --UB_wf_mz                      Float denoting the upper bound of the mass/charge weight factor parameter (optional, default=5.0).
-  --LET_thresh                    Float denoting the low-entropy threshold parameter; only applicable for optimization_method = none (optional, default=0.0).
-  --noise_thresh                  Float denoting the noise removal threshold parameter; only applicable for optimization_method = none (optional, default=0.1).
-  --wf_int                        Float denoting the intensity weight factor parameter; only applicable for optimization_method = none (optional, default=1.0).
-  --wf_mz                         Float denoting the mass/charge weight factor parameter; only applicable for optimization_method = none (optional, default=0.0).
+  --LET_thresh                    Float denoting the low-entropy threshold parameter; not applicable for optimization_method = grid (optional, default=0.0).
+  --noise_thresh                  Float denoting the noise removal threshold parameter; not applicable for optimization_method = grid (optional, default=0.1).
+  --wf_int                        Float denoting the intensity weight factor parameter; not applicable for optimization_method = grid (optional, default=1.0).
+  --wf_mz                         Float denoting the mass/charge weight factor parameter; not applicable for optimization_method = grid(optional, default=0.0).
   --help                          Show this help message.
 ```
 
@@ -125,7 +131,9 @@ julia --threads auto src/OptiMS.jl \
   --optimization_method DE \
   --params_to_optimize all \
   --metric accuracy \
+  --crossvalidation true \
   --max_steps 20 \
+  --pop_size 50 \
   --LB_LET_thresh 0.0 \
   --UB_LET_thresh 5.0 \
   --LB_noise_thresh 0.0 \

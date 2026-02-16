@@ -2,6 +2,7 @@
 using Base.Threads
 using DataFrames
 using Random
+using StatsBase
 
 function print_help()
     println("""
@@ -14,6 +15,10 @@ Usage:
     --output <string> \
     --optimization_method <string> \
     --metric <string> \
+    --crossvalidation <boolean> \
+    --n_folds <int> \
+    --bootstrap_query <boolean> \
+    --random_seed <int> \
     --params_to_optimize <string> \
     --spectrum_preprocessing_order <string> \
     --LB_LET_thresh <float> \
@@ -29,8 +34,9 @@ Usage:
     --wf_int <float> \
     --wf_mz <float> \
     --threads <int> \
-    --n_grid_points <int> \
     --max_steps <int>
+    --pop_size <int>
+    --n_grid_points <int> \
 
 
 Arguments:
@@ -39,11 +45,16 @@ Arguments:
   --output                        Path to output TXT file (required).
   --optimization_method           Optimization approach (optional, options=[DE,grid,none], default=DE).
   --metric                        Quantity to maximize in the objective function (optional, options=[accuracy,MRR], default=accuracy).
+  --crossvalidation               Boolean indicating whether or not to perform 5-fold cross-validation inside the objective function (optional, options=[true,false], default=true).
+  --n_folds                       Number folds to use for cross-validation. Only applicable for crossvalidation is \'true\' and optimization_method is not \'none\' (optional, default=5).
+  --bootstrap_query               Boolean indicating whether or not to construct query dataset of same size from resampling query spectra with replacement; only useful for computing confidence intervals of parameter estimates (optional, options=[true,false], default=false).
+  --random_seed                   Random seed to be used in all computations with a stochastic component (optional, default=1).
   --params_to_optimize            String denoting the parameters to optimize (optional, options='all','LET_thresh','noise_thresh','wf_int','wf_mz', default='all').
   --spectrum_preprocessing_order  String denoting the order of spectrum preprocessing transformations; format must be a string with 0-3 characters of either L (low-entropy trannsformation) and/or W (weight-factor-transformation) and/or N (noise removal) (optional, default: 'NWL').
   --threads                       Number of threads to use (optional, default=1).
-  --n_grid_points                 Number of grid points to use for each parameter; only applicable for grid-based optimization (optional, default=2).
   --max_steps                     Maximum number of iterations allowed in differential evolution optimization; only applicable for DE optimization_method (optional, default=5).
+  --pop_size                      Population size in differential evolution optimization; only applicable for DE optimization_method (optional, default=50).
+  --n_grid_points                 Number of grid points to use for each parameter; only applicable for grid-based optimization (optional, default=2).
   --LB_LET_thresh                 Float denoting the lower bound of the low-entropy threshold parameter (optional, default=0.0).
   --UB_LET_thresh                 Float denoting the upper bound of the low-entropy threshold parameter (optional, default=5.0).
   --LB_noise_thresh               Float denoting the lower bound of the noise removal threshold parameter (optional, default=0.0).
@@ -52,10 +63,10 @@ Arguments:
   --UB_wf_int                     Float denoting the upper bound of the intensity weight factor parameter (optional, default=5.0).
   --LB_wf_mz                      Float denoting the lower bound of the mass/charge weight factor parameter (optional, default=0.0).
   --UB_wf_mz                      Float denoting the upper bound of the mass/charge weight factor parameter (optional, default=5.0).
-  --LET_thresh                    Float denoting the low-entropy threshold parameter; only applicable for optimization_method = none (optional, default=0.0).
-  --noise_thresh                  Float denoting the noise removal threshold parameter; only applicable for optimization_method = none (optional, default=0.1).
-  --wf_int                        Float denoting the intensity weight factor parameter; only applicable for optimization_method = none (optional, default=1.0).
-  --wf_mz                         Float denoting the mass/charge weight factor parameter; only applicable for optimization_method = none (optional, default=0.0).
+  --LET_thresh                    Float denoting the low-entropy threshold parameter; not applicable for optimization_method = grid (optional, default=0.0).
+  --noise_thresh                  Float denoting the noise removal threshold parameter; not applicable for optimization_method = grid (optional, default=0.1).
+  --wf_int                        Float denoting the intensity weight factor parameter; not applicable for optimization_method = grid (optional, default=1.0).
+  --wf_mz                         Float denoting the mass/charge weight factor parameter; not applicable for optimization_method = grid(optional, default=0.0).
   --help                          Show this help message.
 """)
 end
@@ -82,11 +93,16 @@ function parse_args()
         haskey(args, req) || error("Missing required argument: $req. Use --help for usage.")
     end
     get!(args, "--metric", "accuracy")
+    get!(args, "--crossvalidation", "true")
+    get!(args, "--n_folds", "5")
+    get!(args, "--bootstrap_query", "false")
+    get!(args, "--random_seed", "1")
     get!(args, "--params_to_optimize", "all")
     get!(args, "--spectrum_preprocessing_order", "NWL")
     get!(args, "--threads", "1")
     get!(args, "--n_grid_points", "2")
     get!(args, "--max_steps", "5")
+    get!(args, "--pop_size", "50")
     get!(args, "--LB_LET_thresh", "0.0")
     get!(args, "--UB_LET_thresh", "5.0")
     get!(args, "--LB_noise_thresh", "0.0")
@@ -99,18 +115,31 @@ function parse_args()
     get!(args, "--noise_thresh", "0.0")
     get!(args, "--wf_int", "1.0")
     get!(args, "--wf_mz", "0.0")
+
     if !(args["--metric"] in ["accuracy","MRR"])
         println("Warning: metric must be either 'accuracy' or 'MRR'.")
     end
+
     if !(args["--spectrum_preprocessing_order"] in ["","L","N","W","LN","NL","LW","WL","NW","WN","LNW","LWN","NLW","NWL","LNW","LWN"])
         println("Warning: spectrum_preprocessing_order must be either '','L','N','W','LN','NL','LW','WL','NW','WN','LNW','LWN','NLW','NWL','LNW','LWN'.")
     end
+
     if !(args["--params_to_optimize"] in ["all","LET_thresh","noise_thresh","wf_int","wf_mz"])
         println("Error: invalid params_to_optimize parameter. Run <julia OptiMS.jl --help> for usage instructions")
     end
+
     if !(args["--optimization_method"] in ["DE","grid","none"])
         println("Warning: optimization_method must be either 'DE', 'grid', or 'none'.")
     end
+
+    if !(args["--crossvalidation"] in ["true","false"])
+        println("Warning: crossvalidation must be either 'true' or 'false'.")
+    end
+
+    if !(args["--bootstrap_query"] in ["true","false"])
+        println("Warning: bootstrap_query must be either 'true' or 'false'.")
+    end
+
     return args
 end
 
@@ -256,7 +285,7 @@ function get_scores(Q0, R0; order=spectrum_preprocessing_order, LET_thresh=LET_t
 end
 
 
-function objective_acc(x::Vector)
+function objective_acc_cv(x::Vector)
     LET_thresh, noise_thresh, wf_int, wf_mz = x
     min_acc = 99999
     for k in 1:K
@@ -274,9 +303,9 @@ function objective_acc(x::Vector)
 end
 
 
-function objective_MRR(x)
+function objective_MRR_cv(x)
     LET_thresh, noise_thresh, wf_int, wf_mz = x
-    min_MRR = Inf
+    min_MRR = 99999
     for k in 1:K
         val_idx = folds[k]
         Q0_val = @view Q0[val_idx, :]
@@ -291,5 +320,20 @@ function objective_MRR(x)
     return 1.0 - min_MRR
 end
 
+
+function objective_acc_no_cv(x)
+    LET_thresh, noise_thresh, wf_int, wf_mz = x
+    Qp, Rp = apply_pipeline(Q0, R0; order=spectrum_preprocessing_order, LET_thresh=LET_thresh, noise_thresh=noise_thresh, wf_int=wf_int, wf_mz=wf_mz, mzs = mzs)
+    acc = get_acc(Qp, Rp, q_ids_all, r_ids_all)
+    return 1.0 - acc
+end
+
+
+function objective_MRR_no_cv(x)
+    LET_thresh, noise_thresh, wf_int, wf_mz = x
+    Qp, Rp = apply_pipeline(Q0, R0; order=spectrum_preprocessing_order, LET_thresh=LET_thresh, noise_thresh=noise_thresh, wf_int=wf_int, wf_mz=wf_mz, mzs = mzs)
+    MRR = get_MRR(Qp, Rp, q_ids_all, r_ids_all)
+    return 1.0 - MRR
+end
 
 
