@@ -137,7 +137,17 @@ objective_free(p_free) = objective_full(expand_params(p_free, p_fixed_full, opt_
 
 if optimization_method == "DE"
     fitness_progress_history = Vector{NamedTuple{(:evals, :fitness, :params_full), Tuple{Int, Float64, Vector{Float64}}}}()
-    initial_guess = [LET_thresh, noise_thresh, wf_int, wf_mz]
+    if params_to_optimize == "all"
+        initial_guess = [LET_thresh, noise_thresh, wf_int, wf_mz]
+    elseif params_to_optimize == "LET_thresh"
+        initial_guess = [LET_thresh]
+    elseif params_to_optimize == "noise_thresh"
+        initial_guess = [noise_thresh]
+    elseif params_to_optimize == "wf_int"
+        initial_guess = [wf_int]
+    elseif params_to_optimize == "wf_mz"
+        initial_guess = [wf_mz]
+    end
 
     callback = oc -> begin
         p_free_best = BlackBoxOptim.best_candidate(oc)
