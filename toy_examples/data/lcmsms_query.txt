@@ -1,0 +1,1809 @@
+id	precursor_ion_mz	mz_ratio	intensity
+1-hydroxyphenazine M+H	197	153.990219	1228.927979
+1-hydroxyphenazine M+H	197	168.977768	27991.75
+1-hydroxyphenazine M+H	197	178.967026	23563.066406
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	109.121544	14702.676758
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	116.079254	11508.664062
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	118.085175	10873.452148
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	120.042984	26679.402344
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	128.052917	10622.760742
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	130.06839	19718.632812
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	132.055161	88428.617188
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	133.066544	9289.202148
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	134.060425	6319.80127
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	144.028244	128666.328125
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	145.043839	14036.125
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	146.044678	108025.953125
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	147.047852	14334.884766
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	148.0345	6515.532715
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	156.049835	17302.951172
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	158.054306	45182.71875
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	159.042984	417828.25
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	160.048553	243274.796875
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	161.081039	27607.861328
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	162.028381	532398.3125
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	163.02832	53635.804688
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	170.051346	10141.162109
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	171.060257	5458.479492
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	172.022156	280828.03125
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	173.061478	63158.234375
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	174.013672	183601.703125
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	175.01741	104878.367188
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	176.029404	24360.439453
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	183.048645	34916.972656
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	184.037216	125575.023438
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	185.045929	74532.84375
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	186.040863	105472.992188
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	187.035187	17103.660156
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	188.014908	107108.367188
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	189.015793	16661.896484
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	196.008652	21151.642578
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	197.037552	24154.669922
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	198.036392	184245.4375
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	199.043167	67884.765625
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	200.048386	40107.511719
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	201.050308	11455.911133
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	202.014801	75057.945312
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	203.028748	10561.501953
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	210.021423	18846.431641
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	211.051117	18590.996094
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	212.044373	63021.167969
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	213.048843	15913.060547
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	214.056473	23002.119141
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	215.070358	5624.959473
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	216.047394	30687.099609
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	224.03894	11233.066406
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	225.047516	11260.082031
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	226.039444	105524.773438
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	227.057892	20792.931641
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	228.060974	17875.152344
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	230.054184	17309.658203
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	240.0681	48865.523438
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	241.077927	10152.845703
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	242.072052	8706.637695
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	244.071136	15372.75293
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	254.059036	11044.208984
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	258.083893	14801.555664
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	268.084229	83570.148438
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	269.094025	20660.765625
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	270.078064	109843.53125
+2-nonenyl-3-hydroxy 4(1H)-quinolone ! 4-hydroxy-2-nonenylquinoline N-oxide M+H	286	271.097809	22232.359375
+1-methoxyphenazine M+H	211	91.041634	543
+1-methoxyphenazine M+H	211	98.031212	1442
+1-methoxyphenazine M+H	211	182.080597	446
+1-methoxyphenazine M+H	211	182.081482	1124
+1-methoxyphenazine M+H	211	182.082565	3886
+1-methoxyphenazine M+H	211	182.083878	13888
+1-methoxyphenazine M+H	211	182.085632	528
+1-methoxyphenazine M+H	211	183.09021	1112
+1-methoxyphenazine M+H	211	183.091751	4616
+1-methoxyphenazine M+H	211	196.059326	882
+1-methoxyphenazine M+H	211	196.061615	7949
+1-methoxyphenazine M+H	211	196.063126	36724
+1-methoxyphenazine M+H	211	196.065155	1385
+1-methoxyphenazine M+H	211	196.065918	446
+1-methoxyphenazine M+H	211	196.066681	393
+2-nonyl 4-quinolone M+H	272	132.180603	6647.898438
+2-nonyl 4-quinolone M+H	272	146.131531	12536.833984
+2-nonyl 4-quinolone M+H	272	159.104706	389369.1875
+2-nonyl 4-quinolone M+H	272	160.111298	45667.277344
+2-nonyl 4-quinolone M+H	272	161.120224	6886.200684
+2-nonyl 4-quinolone M+H	272	162.111343	5473.596191
+2-nonyl 4-quinolone M+H	272	171.579834	4007.15625
+2-nonyl 4-quinolone M+H	272	172.105011	149653.765625
+2-nonyl 4-quinolone M+H	272	173.100616	31592.40625
+2-nonyl 4-quinolone M+H	272	174.08606	27829.369141
+2-nonyl 4-quinolone M+H	272	185.104736	6069.688965
+2-nonyl 4-quinolone M+H	272	186.072723	37259.269531
+2-nonyl 4-quinolone M+H	272	187.079514	15160.624023
+2-nonyl 4-quinolone M+H	272	188.073212	15700.194336
+2-nonyl 4-quinolone M+H	272	200.077621	6454.203613
+2-nonyl 4-quinolone M+H	272	202.078644	4192.003418
+2-nonyl 4-quinolone M+H	272	214.055679	4119.199707
+2-nonyl 4-quinolone M+H	272	272.065247	222512.1875
+phenazine-1-carboxamide M+H	224	181.090912	19.693878
+phenazine-1-carboxamide M+H	224	196	24.068176
+phenazine-1-carboxamide M+H	224	196.090912	28.718042
+phenazine-1-carboxamide M+H	224	196.181824	24.330441
+phenazine-1-carboxamide M+H	224	206.545456	34.804668
+phenazine-1-carboxamide M+H	224	206.636368	105.134552
+phenazine-1-carboxamide M+H	224	206.72728	301.072632
+phenazine-1-carboxamide M+H	224	206.818192	686.879211
+phenazine-1-carboxamide M+H	224	206.909088	1233.073853
+phenazine-1-carboxamide M+H	224	207	1736.085693
+phenazine-1-carboxamide M+H	224	207.090912	1823.437744
+phenazine-1-carboxamide M+H	224	207.181824	1382.299805
+phenazine-1-carboxamide M+H	224	207.272736	745.653809
+phenazine-1-carboxamide M+H	224	207.363647	276.052124
+phenazine-1-carboxamide M+H	224	207.454544	64.452454
+phenazine-1-carboxylic acid M+H	225	179.060394	31048
+phenazine-1-carboxylic acid M+H	225	207.050888	52502
+phenazine-1-carboxylic acid M+H	225	207.053162	427095
+phenazine-1-carboxylic acid M+H	225	207.05513	2799960
+phenazine-1-carboxylic acid M+H	225	207.057114	113000
+phenazine-1-carboxylic acid M+H	225	208.058685	42414
+phenazine-1-carboxylic acid M+H	225	225.063095	36929
+phenazine-1-carboxylic acid M+H	225	225.065765	253065
+phenazine-1-carboxylic acid M+H	225	226.066513	35125
+phenazine-1-carboxylic acid M+H	225	226.069199	212128
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	58.065731	1716124.5
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	75.04451	3420237.75
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	108.080788	13388665
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	120.044365	5477134
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	122.096031	4988494
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	188.070358	8512794
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	216.065521	14606060
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	234.075699	3773692.75
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	326.212219	1099189.25
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	354.207855	2917803.25
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	372.217255	1465586
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	386.231995	3643207.75
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	391.495697	1000070.5625
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	404.242065	2541592.5
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	523.278625	1855222
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	587.328125	3245114.75
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	651.333252	1716019.125
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	669.334229	2663895.75
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	701.362976	96401048
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+H	701.364	702.365662	2269642.75
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	58.065708	89763.679688
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	71.049652	42468.28125
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	75.044495	164584.46875
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	84.081131	48178.074219
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	108.080666	582604.375
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	122.096214	309125.09375
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	124.111717	52907.042969
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	154.122208	43773.519531
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	188.070221	304497.78125
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	216.065201	1227082.25
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	354.205231	74434.484375
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	386.233551	66004.398438
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	573.294495	46664.726562
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	605.322876	42878.667969
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	619.302734	106883.34375
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	651.3302	102737.203125
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	665.341797	188798.75
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	683.352783	3794172.25
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M-H2O+H	683.353	684.357727	101197.820312
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	55.505756	3860.797607
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	58.065872	8283.064453
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	75.044579	10847.875977
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	84.856888	4590.196289
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	126.205826	4698.884277
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	286.17276	5609.814453
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	291.999939	5035.319824
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	311.380463	4583.680176
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	357.179077	5292.210938
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	372.115509	6131.691895
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	372.25354	9893.165039
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	390.264893	7962.358398
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	400.247162	45302.6875
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	418.259491	23182.976562
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	440.239014	10460.834961
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	515.088135	5594.224121
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	559.274902	6587.93457
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	609.31366	97572.90625
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	723.345154	191143.765625
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	724.342896	5852.84082
+3-({2-[({11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methoxy)carbonyl]phenyl}carbamoyl)-3-methylpropanoic acid M+Na	723.346	727.591187	5333.819336
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	58.065845	3936779.5
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	75.044601	3823184
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	92.006798	6100401.5
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	108.080833	25277820
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	120.044411	45728656
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	122.096428	12071966
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	138.09169	2729301
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	354.20636	3220025
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	386.232819	4343665
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	404.241882	5341770
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	436.268799	2889368.25
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	523.278381	4577875.5
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	555.307617	5170214.5
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+H	587.333	587.332458	258179184
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate 2M+Na	1195.64	368.221924	22472.53125
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate 2M+Na	1195.64	372.25473	47567.417969
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate 2M+Na	1195.64	400.248383	173907.046875
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate 2M+Na	1195.64	537.295349	25353.298828
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate 2M+Na	1195.64	559.27655	43278.8125
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate 2M+Na	1195.64	609.314697	2068596.875
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate 2M+Na	1195.64	610.317383	72328.390625
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	51.193539	4246.530762
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	54.156387	3694.165283
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	55.245003	3898.511719
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	60.92276	3829.843018
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	69.499222	3602.530029
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	82.065796	4837.660645
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	83.224266	3750.625
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	87.655174	4467.438965
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	120.044365	5265.068359
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	120.398735	4661.751465
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	150.090729	6040.185059
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	172.98378	4513.517578
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	177.529541	4337.047852
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	315.269073	4480.632812
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	364.490601	4855.149414
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	372.254242	8849.239258
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	400.248077	56094.820312
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	440.244629	5629.44043
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	537.292786	5814.594727
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	559.276306	11565.822266
+{11-ethyl-8,9-dihydroxy-4,6,16,18-tetramethoxy-11-azahexacyclo[7.7.2.1,?.0,?.0,?.0,?]nonadecan-13-yl}methyl 2-aminobenzoate M+Na	609.315	609.314819	279407.40625
+L-HISTIDINE - 20.0 eV M+H	156.077	83.060501	19135.679688
+L-HISTIDINE - 20.0 eV M+H	156.077	93.044899	14144.19043
+L-HISTIDINE - 20.0 eV M+H	156.077	95.060501	46865.121094
+L-HISTIDINE - 20.0 eV M+H	156.077	110.071404	809741.5625
+L-HISTIDINE - 20.0 eV M+H	156.077	111.068604	13865.209961
+L-HISTIDINE - 20.0 eV M+H	156.077	111.074699	60218.039062
+L-HISTIDINE - 20.0 eV M+H	156.077	156.042206	12987.009766
+L-HISTIDINE - 20.0 eV M+H	156.077	156.076996	313308.84375
+L-HISTIDINE - 20.0 eV M+H	156.077	157.080093	26224.039062
+L-HISTIDINE - 20.0 eV M+H	156.077	174.985107	24383.039062
+L-HISTIDINE - 30.0 eV M+H	156.077	83.060402	21823.880859
+L-HISTIDINE - 30.0 eV M+H	156.077	93.0448	15035.389648
+L-HISTIDINE - 30.0 eV M+H	156.077	95.060501	50062.75
+L-HISTIDINE - 30.0 eV M+H	156.077	110.071404	906997.75
+L-HISTIDINE - 30.0 eV M+H	156.077	111.068802	14086.480469
+L-HISTIDINE - 30.0 eV M+H	156.077	111.074699	67801.429688
+L-HISTIDINE - 30.0 eV M+H	156.077	156.042206	10408.639648
+L-HISTIDINE - 30.0 eV M+H	156.077	156.076996	306100.5625
+L-HISTIDINE - 30.0 eV M+H	156.077	157.080093	29316.589844
+L-HISTIDINE - 30.0 eV M+H	156.077	174.985107	23385.75
+L-HISTIDINE - 40.0 eV M+H	156.077	82.052696	26657.769531
+L-HISTIDINE - 40.0 eV M+H	156.077	83.060501	84878.898438
+L-HISTIDINE - 40.0 eV M+H	156.077	93.044899	60696.011719
+L-HISTIDINE - 40.0 eV M+H	156.077	95.0606	128997.679688
+L-HISTIDINE - 40.0 eV M+H	156.077	110.071503	2056955
+L-HISTIDINE - 40.0 eV M+H	156.077	111.068901	29957.490234
+L-HISTIDINE - 40.0 eV M+H	156.077	111.074799	151407.109375
+L-HISTIDINE - 40.0 eV M+H	156.077	156.077103	257257.6875
+L-HISTIDINE - 40.0 eV M+H	156.077	157.080307	23427.259766
+L-HISTIDINE - 50.0 eV M+H	156.077	82.052696	58608.070312
+L-HISTIDINE - 50.0 eV M+H	156.077	83.060501	209444.0625
+L-HISTIDINE - 50.0 eV M+H	156.077	93.044998	153854.921875
+L-HISTIDINE - 50.0 eV M+H	156.077	95.0606	178920.53125
+L-HISTIDINE - 50.0 eV M+H	156.077	110.071503	2279322
+L-HISTIDINE - 50.0 eV M+H	156.077	111.068901	32136.169922
+L-HISTIDINE - 50.0 eV M+H	156.077	111.074799	171518.984375
+L-HISTIDINE - 50.0 eV M+H	156.077	156.077103	83051.546875
+L-HISTIDINE - 60.0 eV M+H	156.077	68.049698	23893.060547
+L-HISTIDINE - 60.0 eV M+H	156.077	81.044899	33646.519531
+L-HISTIDINE - 60.0 eV M+H	156.077	82.052803	105222.617188
+L-HISTIDINE - 60.0 eV M+H	156.077	83.060501	393107.59375
+L-HISTIDINE - 60.0 eV M+H	156.077	84.063904	25460.039062
+L-HISTIDINE - 60.0 eV M+H	156.077	93.044998	312554.8125
+L-HISTIDINE - 60.0 eV M+H	156.077	94.048302	22895.130859
+L-HISTIDINE - 60.0 eV M+H	156.077	95.0606	179153.90625
+L-HISTIDINE - 60.0 eV M+H	156.077	110.071503	2039440.625
+L-HISTIDINE - 60.0 eV M+H	156.077	111.055496	23617.839844
+L-HISTIDINE - 60.0 eV M+H	156.077	111.068802	28607.439453
+L-HISTIDINE - 60.0 eV M+H	156.077	111.074799	154295.1875
+L-HISTIDINE - 60.0 eV M+H	156.077	156.077103	22010.990234
+L-HISTIDINE - 70.0 eV M+H	156.077	56.049801	15038.620117
+L-HISTIDINE - 70.0 eV M+H	156.077	68.049698	14951.070312
+L-HISTIDINE - 70.0 eV M+H	156.077	81.0448	22241.660156
+L-HISTIDINE - 70.0 eV M+H	156.077	82.052597	67734.34375
+L-HISTIDINE - 70.0 eV M+H	156.077	83.060501	249210.40625
+L-HISTIDINE - 70.0 eV M+H	156.077	84.063797	13395.900391
+L-HISTIDINE - 70.0 eV M+H	156.077	93.0448	171758.8125
+L-HISTIDINE - 70.0 eV M+H	156.077	94.048302	12964.900391
+L-HISTIDINE - 70.0 eV M+H	156.077	95.060501	63600.730469
+L-HISTIDINE - 70.0 eV M+H	156.077	110.071404	624662.5
+L-HISTIDINE - 70.0 eV M+H	156.077	111.055397	9025.44043
+L-HISTIDINE - 70.0 eV M+H	156.077	111.068802	9624.290039
+L-HISTIDINE - 70.0 eV M+H	156.077	111.074699	53407.558594
+L-HISTIDINE - 70.0 eV M+H	156.077	174.985107	14419.240234
+SPERMIDINE - 20.0 eV M+H	146.165	58.065498	17477.400391
+SPERMIDINE - 20.0 eV M+H	146.165	72.081001	520517.71875
+SPERMIDINE - 20.0 eV M+H	146.165	73.084297	51638.140625
+SPERMIDINE - 20.0 eV M+H	146.165	75.091904	51863.101562
+SPERMIDINE - 20.0 eV M+H	146.165	84.080902	19817.849609
+SPERMIDINE - 20.0 eV M+H	146.165	112.112297	177087.1875
+SPERMIDINE - 20.0 eV M+H	146.165	113.115601	29311.150391
+SPERMIDINE - 20.0 eV M+H	146.165	123.9646	8562.900391
+SPERMIDINE - 20.0 eV M+H	146.165	129.138794	159959.5625
+SPERMIDINE - 20.0 eV M+H	146.165	130.142197	28756.820312
+SPERMIDINE - 20.0 eV M+H	146.165	146.165405	204273.046875
+SPERMIDINE - 20.0 eV M+H	146.165	147.168594	36826.199219
+SPERMIDINE - 30.0 eV M+H	146.165	58.065498	18156.509766
+SPERMIDINE - 30.0 eV M+H	146.165	72.081001	529721.125
+SPERMIDINE - 30.0 eV M+H	146.165	73.084297	48160.628906
+SPERMIDINE - 30.0 eV M+H	146.165	75.091904	54037.089844
+SPERMIDINE - 30.0 eV M+H	146.165	84.080902	19005.240234
+SPERMIDINE - 30.0 eV M+H	146.165	112.112297	186456.390625
+SPERMIDINE - 30.0 eV M+H	146.165	113.115601	31776.480469
+SPERMIDINE - 30.0 eV M+H	146.165	123.9646	7858.27002
+SPERMIDINE - 30.0 eV M+H	146.165	129.138901	164257.203125
+SPERMIDINE - 30.0 eV M+H	146.165	130.142197	28702.740234
+SPERMIDINE - 30.0 eV M+H	146.165	146.165497	198397.75
+SPERMIDINE - 30.0 eV M+H	146.165	147.162598	5988.569824
+SPERMIDINE - 30.0 eV M+H	146.165	147.168701	35816.628906
+SPERMIDINE - 40.0 eV M+H	146.165	58.065498	30488.800781
+SPERMIDINE - 40.0 eV M+H	146.165	72.081001	809729.25
+SPERMIDINE - 40.0 eV M+H	146.165	73.084297	77394.109375
+SPERMIDINE - 40.0 eV M+H	146.165	75.091904	56645.378906
+SPERMIDINE - 40.0 eV M+H	146.165	84.081001	43018.300781
+SPERMIDINE - 40.0 eV M+H	146.165	112.112297	288849.4375
+SPERMIDINE - 40.0 eV M+H	146.165	113.1157	41781.558594
+SPERMIDINE - 40.0 eV M+H	146.165	124.015297	8870.349609
+SPERMIDINE - 40.0 eV M+H	146.165	129.138901	145767.40625
+SPERMIDINE - 40.0 eV M+H	146.165	130.142303	25526.509766
+SPERMIDINE - 40.0 eV M+H	146.165	146.165497	117014.75
+SPERMIDINE - 40.0 eV M+H	146.165	147.168793	19542.890625
+SPERMIDINE - 50.0 eV M+H	146.165	58.065601	43583.941406
+SPERMIDINE - 50.0 eV M+H	146.165	72.081001	890409.3125
+SPERMIDINE - 50.0 eV M+H	146.165	73.084297	75117.492188
+SPERMIDINE - 50.0 eV M+H	146.165	75.091904	30423.570312
+SPERMIDINE - 50.0 eV M+H	146.165	84.081001	81702.953125
+SPERMIDINE - 50.0 eV M+H	146.165	112.112297	291880.59375
+SPERMIDINE - 50.0 eV M+H	146.165	113.115601	48840.441406
+SPERMIDINE - 50.0 eV M+H	146.165	129.138901	66215.226562
+SPERMIDINE - 50.0 eV M+H	146.165	146.165604	24412.289062
+SPERMIDINE - 60.0 eV M+H	146.165	58.065498	50090.46875
+SPERMIDINE - 60.0 eV M+H	146.165	72.081001	920280.8125
+SPERMIDINE - 60.0 eV M+H	146.165	73.084297	89521.851562
+SPERMIDINE - 60.0 eV M+H	146.165	75.091797	14994.610352
+SPERMIDINE - 60.0 eV M+H	146.165	84.081001	139616.046875
+SPERMIDINE - 60.0 eV M+H	146.165	85.084297	11083.219727
+SPERMIDINE - 60.0 eV M+H	146.165	112.112297	232731.015625
+SPERMIDINE - 60.0 eV M+H	146.165	113.115601	33870.269531
+SPERMIDINE - 60.0 eV M+H	146.165	129.138901	17563.279297
+SPERMIDINE - 70.0 eV M+H	146.165	58.065498	37911.828125
+SPERMIDINE - 70.0 eV M+H	146.165	72.081001	583519.5
+SPERMIDINE - 70.0 eV M+H	146.165	73.084297	58003.859375
+SPERMIDINE - 70.0 eV M+H	146.165	84.080902	135550.96875
+SPERMIDINE - 70.0 eV M+H	146.165	85.084297	14959.719727
+SPERMIDINE - 70.0 eV M+H	146.165	112.112297	112548.671875
+SPERMIDINE - 70.0 eV M+H	146.165	113.115501	20214.519531
+naringenin M+H	273.076	119.049225	609620.375
+naringenin M+H	273.076	147.04422	11344849
+naringenin M+H	273.076	151.039291	170916.484375
+naringenin M+H	273.076	153.018387	14518179
+naringenin M+H	273.076	179.034225	598695.3125
+naringenin M+H	273.076	189.054855	635881.3125
+naringenin M+H	273.076	231.065781	544722.3125
+naringenin M+H	273.076	255.065735	172099.78125
+3-Des-Microcystein_LR M+H	981.54	289.286377	8068
+3-Des-Microcystein_LR M+H	981.54	295.545288	22507
+3-Des-Microcystein_LR M+H	981.54	317.324951	18742
+3-Des-Microcystein_LR M+H	981.54	319.655945	8604
+3-Des-Microcystein_LR M+H	981.54	324.482422	8041
+3-Des-Microcystein_LR M+H	981.54	325.316284	9738
+3-Des-Microcystein_LR M+H	981.54	339.789429	16145
+3-Des-Microcystein_LR M+H	981.54	343.947021	18094
+3-Des-Microcystein_LR M+H	981.54	347.020508	13981
+3-Des-Microcystein_LR M+H	981.54	361.147705	11763
+3-Des-Microcystein_LR M+H	981.54	361.84436	24296
+3-Des-Microcystein_LR M+H	981.54	364.858154	10782
+3-Des-Microcystein_LR M+H	981.54	365.845886	10242
+3-Des-Microcystein_LR M+H	981.54	368.22168	12761
+3-Des-Microcystein_LR M+H	981.54	368.965698	19147
+3-Des-Microcystein_LR M+H	981.54	375.069519	15644
+3-Des-Microcystein_LR M+H	981.54	375.751953	25393
+3-Des-Microcystein_LR M+H	981.54	382.750549	12765
+3-Des-Microcystein_LR M+H	981.54	384.197083	17912
+3-Des-Microcystein_LR M+H	981.54	390.574219	7993
+3-Des-Microcystein_LR M+H	981.54	394.049194	16135
+3-Des-Microcystein_LR M+H	981.54	397.106262	13986
+3-Des-Microcystein_LR M+H	981.54	404.420715	12326
+3-Des-Microcystein_LR M+H	981.54	413.784546	8715
+3-Des-Microcystein_LR M+H	981.54	427.667358	68137
+3-Des-Microcystein_LR M+H	981.54	436.192749	14879
+3-Des-Microcystein_LR M+H	981.54	443.266113	44427
+3-Des-Microcystein_LR M+H	981.54	446.267273	23472
+3-Des-Microcystein_LR M+H	981.54	447.747498	29292
+3-Des-Microcystein_LR M+H	981.54	455.25	70939
+3-Des-Microcystein_LR M+H	981.54	456.107544	105392
+3-Des-Microcystein_LR M+H	981.54	457.543213	12862
+3-Des-Microcystein_LR M+H	981.54	464.285461	8617
+3-Des-Microcystein_LR M+H	981.54	469.872314	87594
+3-Des-Microcystein_LR M+H	981.54	471.062195	31482
+3-Des-Microcystein_LR M+H	981.54	475.257324	15449
+3-Des-Microcystein_LR M+H	981.54	476.143616	23143
+3-Des-Microcystein_LR M+H	981.54	476.975159	28430
+3-Des-Microcystein_LR M+H	981.54	478.891113	27890
+3-Des-Microcystein_LR M+H	981.54	479.975952	33235
+3-Des-Microcystein_LR M+H	981.54	483.242432	13564
+3-Des-Microcystein_LR M+H	981.54	487.210388	32885
+3-Des-Microcystein_LR M+H	981.54	488.160156	20786
+3-Des-Microcystein_LR M+H	981.54	491.191956	55073
+3-Des-Microcystein_LR M+H	981.54	495.653992	32208
+3-Des-Microcystein_LR M+H	981.54	498.412964	11684
+3-Des-Microcystein_LR M+H	981.54	503.028198	30643
+3-Des-Microcystein_LR M+H	981.54	504.344543	36421
+3-Des-Microcystein_LR M+H	981.54	505.154541	9667
+3-Des-Microcystein_LR M+H	981.54	510.176514	38891
+3-Des-Microcystein_LR M+H	981.54	512.168701	10175
+3-Des-Microcystein_LR M+H	981.54	513.265381	16524
+3-Des-Microcystein_LR M+H	981.54	514.957397	11384
+3-Des-Microcystein_LR M+H	981.54	515.922852	78764
+3-Des-Microcystein_LR M+H	981.54	520.973389	28857
+3-Des-Microcystein_LR M+H	981.54	523.168945	58926
+3-Des-Microcystein_LR M+H	981.54	529.036865	20722
+3-Des-Microcystein_LR M+H	981.54	530.991211	31845
+3-Des-Microcystein_LR M+H	981.54	534.575195	12906
+3-Des-Microcystein_LR M+H	981.54	538.003174	220949
+3-Des-Microcystein_LR M+H	981.54	539.217773	272296
+3-Des-Microcystein_LR M+H	981.54	540.672852	43876
+3-Des-Microcystein_LR M+H	981.54	548.061401	13655
+3-Des-Microcystein_LR M+H	981.54	554.117432	76225
+3-Des-Microcystein_LR M+H	981.54	556.030396	214421
+3-Des-Microcystein_LR M+H	981.54	557.288818	52970
+3-Des-Microcystein_LR M+H	981.54	559.942261	18112
+3-Des-Microcystein_LR M+H	981.54	561.328735	14656
+3-Des-Microcystein_LR M+H	981.54	564.123047	25971
+3-Des-Microcystein_LR M+H	981.54	564.94873	34630
+3-Des-Microcystein_LR M+H	981.54	566.439941	35564
+3-Des-Microcystein_LR M+H	981.54	571.33374	61305
+3-Des-Microcystein_LR M+H	981.54	572.047363	17235
+3-Des-Microcystein_LR M+H	981.54	575.219238	42127
+3-Des-Microcystein_LR M+H	981.54	577.102905	29550
+3-Des-Microcystein_LR M+H	981.54	580.942627	17609
+3-Des-Microcystein_LR M+H	981.54	582.110107	102075
+3-Des-Microcystein_LR M+H	981.54	583.458984	10113
+3-Des-Microcystein_LR M+H	981.54	585.237061	36774
+3-Des-Microcystein_LR M+H	981.54	598.172485	26085
+3-Des-Microcystein_LR M+H	981.54	599.352783	764523
+3-Des-Microcystein_LR M+H	981.54	600.382812	114267
+3-Des-Microcystein_LR M+H	981.54	602.267578	27144
+3-Des-Microcystein_LR M+H	981.54	609.302002	10247
+3-Des-Microcystein_LR M+H	981.54	613.415771	8621
+3-Des-Microcystein_LR M+H	981.54	622.208984	23787
+3-Des-Microcystein_LR M+H	981.54	623.023193	63940
+3-Des-Microcystein_LR M+H	981.54	623.991455	19154
+3-Des-Microcystein_LR M+H	981.54	625.216187	23050
+3-Des-Microcystein_LR M+H	981.54	638.299561	12481
+3-Des-Microcystein_LR M+H	981.54	640.265625	17392
+3-Des-Microcystein_LR M+H	981.54	641.235107	65873
+3-Des-Microcystein_LR M+H	981.54	646.095947	8409
+3-Des-Microcystein_LR M+H	981.54	651.526611	17521
+3-Des-Microcystein_LR M+H	981.54	657.128906	12911
+3-Des-Microcystein_LR M+H	981.54	658.094971	14824
+3-Des-Microcystein_LR M+H	981.54	659.420898	41969
+3-Des-Microcystein_LR M+H	981.54	663.387695	18284
+3-Des-Microcystein_LR M+H	981.54	668.33252	65700
+3-Des-Microcystein_LR M+H	981.54	680.219727	44374
+3-Des-Microcystein_LR M+H	981.54	681.987793	24446
+3-Des-Microcystein_LR M+H	981.54	685.957764	19166
+3-Des-Microcystein_LR M+H	981.54	691.648682	29177
+3-Des-Microcystein_LR M+H	981.54	693.22583	33545
+3-Des-Microcystein_LR M+H	981.54	694.307861	22539
+3-Des-Microcystein_LR M+H	981.54	696.332397	121211
+3-Des-Microcystein_LR M+H	981.54	697.127808	9503
+3-Des-Microcystein_LR M+H	981.54	709.464478	20171
+3-Des-Microcystein_LR M+H	981.54	710.79541	22346
+3-Des-Microcystein_LR M+H	981.54	711.744873	32675
+3-Des-Microcystein_LR M+H	981.54	714.071777	50487
+3-Des-Microcystein_LR M+H	981.54	715.578979	54567
+3-Des-Microcystein_LR M+H	981.54	723.267822	14415
+3-Des-Microcystein_LR M+H	981.54	724.081909	88510
+3-Des-Microcystein_LR M+H	981.54	725.488892	8470
+3-Des-Microcystein_LR M+H	981.54	728.352051	21518
+3-Des-Microcystein_LR M+H	981.54	735.806396	52022
+3-Des-Microcystein_LR M+H	981.54	744.365234	16205
+3-Des-Microcystein_LR M+H	981.54	747.456055	19268
+3-Des-Microcystein_LR M+H	981.54	753.27124	14114
+3-Des-Microcystein_LR M+H	981.54	761.609131	12373
+3-Des-Microcystein_LR M+H	981.54	764.462158	19876
+3-Des-Microcystein_LR M+H	981.54	765.280029	18361
+3-Des-Microcystein_LR M+H	981.54	769.275635	41999
+3-Des-Microcystein_LR M+H	981.54	770.328613	16548
+3-Des-Microcystein_LR M+H	981.54	771.386353	13776
+3-Des-Microcystein_LR M+H	981.54	787.432617	33003
+3-Des-Microcystein_LR M+H	981.54	796.139526	9637
+3-Des-Microcystein_LR M+H	981.54	797.232788	11322
+3-Des-Microcystein_LR M+H	981.54	806.556885	18639
+3-Des-Microcystein_LR M+H	981.54	811.637329	14687
+3-Des-Microcystein_LR M+H	981.54	812.300049	9904
+3-Des-Microcystein_LR M+H	981.54	813.149292	15959
+3-Des-Microcystein_LR M+H	981.54	821.288208	15591
+3-Des-Microcystein_LR M+H	981.54	823.361328	13693
+3-Des-Microcystein_LR M+H	981.54	828.517456	32132
+3-Des-Microcystein_LR M+H	981.54	830.409302	102583
+3-Des-Microcystein_LR M+H	981.54	831.306763	65294
+3-Des-Microcystein_LR M+H	981.54	832.105469	9727
+3-Des-Microcystein_LR M+H	981.54	836.078247	8740
+3-Des-Microcystein_LR M+H	981.54	838.518677	26160
+3-Des-Microcystein_LR M+H	981.54	839.455811	72006
+3-Des-Microcystein_LR M+H	981.54	845.612915	21577
+3-Des-Microcystein_LR M+H	981.54	847.433594	196462
+3-Des-Microcystein_LR M+H	981.54	848.125854	39637
+3-Des-Microcystein_LR M+H	981.54	851.380859	246170
+3-Des-Microcystein_LR M+H	981.54	852.370605	276882
+3-Des-Microcystein_LR M+H	981.54	853.270508	44216
+3-Des-Microcystein_LR M+H	981.54	865.5979	44697
+3-Des-Microcystein_LR M+H	981.54	866.295654	111012
+3-Des-Microcystein_LR M+H	981.54	868.372192	78023
+3-Des-Microcystein_LR M+H	981.54	869.331177	8584
+3-Des-Microcystein_LR M+H	981.54	877.137451	30131
+3-Des-Microcystein_LR M+H	981.54	883.442261	49241
+3-Des-Microcystein_LR M+H	981.54	888.167114	41037
+3-Des-Microcystein_LR M+H	981.54	889.282959	24795
+3-Des-Microcystein_LR M+H	981.54	892.127808	14925
+3-Des-Microcystein_LR M+H	981.54	893.467896	23506
+3-Des-Microcystein_LR M+H	981.54	895.607422	13123
+3-Des-Microcystein_LR M+H	981.54	899.010132	28633
+3-Des-Microcystein_LR M+H	981.54	901.351196	13472
+3-Des-Microcystein_LR M+H	981.54	909.424438	244136
+3-Des-Microcystein_LR M+H	981.54	910.515381	43770
+3-Des-Microcystein_LR M+H	981.54	911.526367	15208
+3-Des-Microcystein_LR M+H	981.54	915.217773	28455
+3-Des-Microcystein_LR M+H	981.54	919.39624	85829
+3-Des-Microcystein_LR M+H	981.54	921.123901	16163
+3-Des-Microcystein_LR M+H	981.54	922.205688	37863
+3-Des-Microcystein_LR M+H	981.54	925.063721	43395
+3-Des-Microcystein_LR M+H	981.54	931.132812	61732
+3-Des-Microcystein_LR M+H	981.54	932.351929	136657
+3-Des-Microcystein_LR M+H	981.54	933.524048	25202
+3-Des-Microcystein_LR M+H	981.54	935.493286	33896
+3-Des-Microcystein_LR M+H	981.54	936.552002	103130
+3-Des-Microcystein_LR M+H	981.54	937.588623	67605
+3-Des-Microcystein_LR M+H	981.54	938.471069	35379
+3-Des-Microcystein_LR M+H	981.54	939.61792	77289
+3-Des-Microcystein_LR M+H	981.54	946.257812	38584
+3-Des-Microcystein_LR M+H	981.54	949.370239	85420
+3-Des-Microcystein_LR M+H	981.54	951.551758	29995
+3-Des-Microcystein_LR M+H	981.54	953.396606	545281
+3-Des-Microcystein_LR M+H	981.54	954.491577	123937
+3-Des-Microcystein_LR M+H	981.54	963.686768	261578
+3-Des-Microcystein_LR M+H	981.54	964.524658	318164
+3-Des-Microcystein_LR M+H	981.54	965.192139	124405
+3-Des-Microcystein_LR M+H	981.54	982.221924	27147
+Cyclomarin A M+Na	1065.6	804.463196	536.074402
+Cyclomarin A M+Na	1065.6	805.463684	354.589386
+Cyclomarin A M+Na	1065.6	808.494202	573.04541
+Cyclomarin A M+Na	1065.6	809.497559	355.794586
+Cyclomarin A M+Na	1065.6	836.490051	14055.360352
+Cyclomarin A M+Na	1065.6	837.493042	11476.94043
+Cyclomarin A M+Na	1065.6	838.495789	2653.943115
+Cyclomarin A M+Na	1065.6	839.498352	524.731995
+Piperazimycin A M+H	727.32	101.071495	2703.825928
+Piperazimycin A M+H	727.32	138.128326	2721.761963
+Piperazimycin A M+H	727.32	159.077103	3980.726074
+Piperazimycin A M+H	727.32	187.071762	6316.199219
+Piperazimycin A M+H	727.32	195.076736	2079.707031
+Piperazimycin A M+H	727.32	213.08754	7329.770996
+Piperazimycin A M+H	727.32	275.091583	2324.272949
+Piperazimycin A M+H	727.32	295.121826	1875.034058
+Piperazimycin A M+H	727.32	312.148224	1646.928955
+Piperazimycin A M+H	727.32	329.174774	2066.413086
+Piperazimycin A M+H	727.32	330.140717	1717.541016
+Piperazimycin A M+H	727.32	334.177094	1235.901978
+Piperazimycin A M+H	727.32	348.144409	2197.784912
+Piperazimycin A M+H	727.32	352.187897	6451.359863
+Piperazimycin A M+H	727.32	376.139038	18751.589844
+Piperazimycin A M+H	727.32	377.141968	3487.299072
+Piperazimycin A M+H	727.32	378.137299	6390.696777
+Piperazimycin A M+H	727.32	394.150543	4368.154785
+Piperazimycin A M+H	727.32	396.147583	1373.223022
+Piperazimycin A M+H	727.32	440.206055	1369.69397
+Piperazimycin A M+H	727.32	451.171478	2016.719971
+Piperazimycin A M+H	727.32	453.233429	1467.910034
+Piperazimycin A M+H	727.32	498.213318	13745.540039
+Piperazimycin A M+H	727.32	499.215454	3999.782959
+Piperazimycin A M+H	727.32	500.2117	4824.362793
+Piperazimycin A M+H	727.32	541.255737	13768.620117
+Piperazimycin A M+H	727.32	542.256592	4684.667969
+Piperazimycin A M+H	727.32	543.253479	5321.770996
+Piperazimycin A M+H	727.32	544.19635	2217.746094
+Piperazimycin A M+H	727.32	544.244629	1556.884033
+Piperazimycin A M+H	727.32	559.266052	83951.023438
+Piperazimycin A M+H	727.32	560.269043	26023.929688
+Piperazimycin A M+H	727.32	561.264221	32687.949219
+Piperazimycin A M+H	727.32	562.265808	7188.196777
+Piperazimycin A M+H	727.32	681.314087	3048.066895
+Piperazimycin A M+H	727.32	682.315735	1450.781006
+Piperazimycin A M+H	727.32	683.315125	1501.130981
+Piperazimycin A M+H	727.32	691.30304	2154.843994
+Piperazimycin A M+H	727.32	699.324585	7801.694824
+Piperazimycin A M+H	727.32	700.326416	3214.14502
+Piperazimycin A M+H	727.32	701.322815	3355.571045
+Piperazimycin A M+H	727.32	709.308716	27651.380859
+Piperazimycin A M+H	727.32	710.311951	12088.299805
+Piperazimycin A M+H	727.32	711.307495	12600.540039
+Piperazimycin A M+H	727.32	712.307922	3732.23999
+Piperazimycin A M+H	727.32	727.320129	120044.398438
+Piperazimycin A M+H	727.32	728.32312	51075.320312
+Piperazimycin A M+H	727.32	729.320129	59167.570312
+Piperazimycin A M+H	727.32	730.321899	16759.259766
+Piperazimycin A M+H	727.32	731.310486	1674.89502
+Actinoquinolone A M+H	404.131	55.055618	1777.008057
+Actinoquinolone A M+H	404.131	57.071171	11251.019531
+Actinoquinolone A M+H	404.131	60.0457	2416.50708
+Actinoquinolone A M+H	404.131	67.055733	2006.850952
+Actinoquinolone A M+H	404.131	68.051109	1643.625
+Actinoquinolone A M+H	404.131	69.071091	3793.157959
+Actinoquinolone A M+H	404.131	70.066864	2954.737061
+Actinoquinolone A M+H	404.131	79.055336	11691.94043
+Actinoquinolone A M+H	404.131	84.082001	1486.274048
+Actinoquinolone A M+H	404.131	85.065689	7266.042969
+Actinoquinolone A M+H	404.131	96.081787	81598.492188
+Actinoquinolone A M+H	404.131	97.082573	6988.200195
+Actinoquinolone A M+H	404.131	102.091972	6284.879883
+Actinoquinolone A M+H	404.131	113.108063	31658.5
+Actinoquinolone A M+H	404.131	114.092392	76963.226562
+Actinoquinolone A M+H	404.131	115.095406	6953.967773
+Actinoquinolone A M+H	404.131	116.050163	2747.775879
+Actinoquinolone A M+H	404.131	131.118423	10569.129883
+Actinoquinolone A M+H	404.131	132.10553	3280.657959
+Actinoquinolone A M+H	404.131	144.044907	10024.980469
+Actinoquinolone A M+H	404.131	146.060318	1388.500977
+Actinoquinolone A M+H	404.131	172.039871	14665.349609
+Actinoquinolone A M+H	404.131	173.043427	1856.994995
+Actinoquinolone A M+H	404.131	179.1548	10822.540039
+Actinoquinolone A M+H	404.131	180.140701	11864.099609
+Actinoquinolone A M+H	404.131	181.142761	1792.33606
+Actinoquinolone A M+H	404.131	189.066284	18438.640625
+Actinoquinolone A M+H	404.131	190.063049	3705.560059
+Actinoquinolone A M+H	404.131	197.165588	137938.203125
+Actinoquinolone A M+H	404.131	198.156631	45438.640625
+Actinoquinolone A M+H	404.131	199.155579	6560.937988
+Actinoquinolone A M+H	404.131	213.06665	7299.874023
+Actinoquinolone A M+H	404.131	214.069275	1767.01001
+Actinoquinolone A M+H	404.131	215.176163	33599.300781
+Actinoquinolone A M+H	404.131	216.178406	5645.708008
+Actinoquinolone A M+H	404.131	231.077393	40587.03125
+Actinoquinolone A M+H	404.131	232.08049	7453.439941
+Actinoquinolone A M+H	404.131	266.1297	5921.416016
+Actinoquinolone A M+H	404.131	267.115753	9922.740234
+Actinoquinolone A M+H	404.131	268.118439	2610.041016
+Actinoquinolone A M+H	404.131	273.124664	1936.626953
+Actinoquinolone A M+H	404.131	284.140869	94272.546875
+Actinoquinolone A M+H	404.131	285.129822	75351.546875
+Actinoquinolone A M+H	404.131	286.130066	16361.830078
+Actinoquinolone A M+H	404.131	287.131561	2125.470947
+Actinoquinolone A M+H	404.131	302.151398	77055.25
+Actinoquinolone A M+H	404.131	303.154022	19181.609375
+Actinoquinolone A M+H	404.131	304.15567	2595.389893
+Actinoquinolone A M+H	404.131	315.135162	2060.940918
+Actinoquinolone A M+H	404.131	320.161865	18855.990234
+Actinoquinolone A M+H	404.131	321.164673	4475.682129
+Actinoquinolone A M+H	404.131	368.198639	61434.429688
+Actinoquinolone A M+H	404.131	369.200531	21145.070312
+Actinoquinolone A M+H	404.131	370.200775	3554.188965
+Actinoquinolone A M+H	404.131	386.209259	52420.398438
+Actinoquinolone A M+H	404.131	387.211823	17550.169922
+Actinoquinolone A M+H	404.131	388.2146	2706.11499
+Actinoquinolone A M+H	404.131	404.21991	20913.5
+Actinoquinolone A M+H	404.131	405.222717	7146.454102
+Actinoquinolone A M+Na	426.202	168.042282	1531.636963
+Actinoquinolone A M+Na	426.202	212.031631	1253.005005
+Actinoquinolone A M+Na	426.202	237.158112	16484.630859
+Actinoquinolone A M+Na	426.202	238.161118	3055.274902
+Actinoquinolone A M+Na	426.202	255.169006	6628.26709
+Actinoquinolone A M+Na	426.202	256.171692	1047.362061
+Actinoquinolone A M+Na	426.202	408.190674	2849.24707
+Actinoquinolone A M+Na	426.202	409.194946	940.379272
+Actinoquinolone A M+Na	426.202	426.201569	86692.25
+Actinoquinolone A M+Na	426.202	427.204529	28001.019531
+Actinoquinolone A M+Na	426.202	428.207703	4487.873047
+Desferrioxamine E M+H	601.358	84.081734	11056.969727
+Desferrioxamine E M+H	601.358	100.039833	3117.533936
+Desferrioxamine E M+H	601.358	102.092087	3149.293945
+Desferrioxamine E M+H	601.358	154.086609	3062.091064
+Desferrioxamine E M+H	601.358	165.102493	3951.846924
+Desferrioxamine E M+H	601.358	166.087082	8772.938477
+Desferrioxamine E M+H	601.358	183.113113	8927.036133
+Desferrioxamine E M+H	601.358	201.124039	56725.128906
+Desferrioxamine E M+H	601.358	202.126816	5900.729004
+Desferrioxamine E M+H	601.358	219.134613	2369.906982
+Desferrioxamine E M+H	601.358	283.1297	9513.424805
+Desferrioxamine E M+H	601.358	301.140503	7328.708984
+Desferrioxamine E M+H	601.358	319.235596	1916.901001
+Desferrioxamine E M+H	601.358	383.230316	2229.75
+Desferrioxamine E M+H	601.358	401.240631	97542.882812
+Desferrioxamine E M+H	601.358	402.243988	21828.849609
+Desferrioxamine E M+H	601.358	403.246033	3277.48291
+Desferrioxamine E M+H	601.358	483.246277	1981.781006
+Desferrioxamine E M+H	601.358	601.357117	186817.90625
+Desferrioxamine E M+H	601.358	602.360413	73606.578125
+Desferrioxamine E M+H	601.358	603.363098	15348.040039
+Desferrioxamine E M+H	601.358	604.36499	2223.407959
+Desferrioxamine E M+Na	623.339	623.339417	171162.90625
+Desferrioxamine E M+Na	623.339	624.342957	58832.011719
+Desferrioxamine E M+Na	623.339	625.343933	12577.650391
+Marineosin A M+H	410.282	80.050644	20418.660156
+Marineosin A M+H	410.282	94.066032	7525.575195
+Marineosin A M+H	410.282	95.062317	7259.898926
+Marineosin A M+H	410.282	120.081467	7209.056152
+Marineosin A M+H	410.282	163.087204	11487.400391
+Marineosin A M+H	410.282	190.159775	22142.199219
+Marineosin A M+H	410.282	200.143997	15392.860352
+Marineosin A M+H	410.282	228.139618	93564.929688
+Marineosin A M+H	410.282	229.143219	19682.289062
+Marineosin A M+H	410.282	230.191162	649130.375
+Marineosin A M+H	410.282	230.331635	31188.650391
+Marineosin A M+H	410.282	231.195038	159550.09375
+Marineosin A M+H	410.282	232.205383	57179.941406
+Marineosin A M+H	410.282	233.210022	11048.790039
+Marineosin A M+H	410.282	242.191132	7487.832031
+Marineosin A M+H	410.282	246.186386	12875.780273
+Marineosin A M+H	410.282	248.201843	7868.105957
+Marineosin A M+H	410.282	260.165985	40447.898438
+Marineosin A M+H	410.282	261.169281	8802.941406
+Marineosin A M+H	410.282	270.186829	143834.40625
+Marineosin A M+H	410.282	271.190063	34022.128906
+Marineosin A M+H	410.282	286.217865	18034.029297
+Marineosin A M+H	410.282	287.220215	9904.041992
+Marineosin A M+H	410.282	302.212799	696121.1875
+Marineosin A M+H	410.282	303.21637	190860.296875
+Marineosin A M+H	410.282	304.219391	22296.490234
+Marineosin A M+H	410.282	336.209137	26121.689453
+Marineosin A M+H	410.282	337.21405	12496.05957
+Marineosin A M+H	410.282	360.244965	12354.959961
+Marineosin A M+H	410.282	361.230774	87605.421875
+Marineosin A M+H	410.282	362.233917	38573.328125
+Marineosin A M+H	410.282	363.237213	6985.323242
+Marineosin A M+H	410.282	378.255798	370917.3125
+Marineosin A M+H	410.282	379.260223	195731.5
+Marineosin A M+H	410.282	380.264038	38310.910156
+Marineosin A M+H	410.282	393.260315	7722.803223
+Marineosin A M+H	410.282	410.282379	165659.90625
+Marineosin A M+H	410.282	411.286835	91412.546875
+Marineosin A M+H	410.282	412.289307	20707.630859
+Marineosin A M+Na	432.264	92.049057	82.267227
+Marineosin A M+Na	432.264	179.083176	134.274094
+Marineosin A M+Na	432.264	201.063278	79.228569
+Marineosin A M+Na	432.264	230.188278	66.913017
+Marineosin A M+Na	432.264	400.240601	95.027481
+Marineosin A M+Na	432.264	401.241943	123.130096
+Marineosin A M+Na	432.264	432.264069	6152.042969
+Marineosin A M+Na	432.264	432.45575	68.356361
+Marineosin A M+Na	432.264	433.267731	3262.686035
+Marineosin A M+Na	432.264	434.26944	852.840088
+Marineosin A M+Na	432.264	435.275146	127.662804
+Marineosin B M+H	410.282	200.144012	11356.919922
+Marineosin B M+H	410.282	228.139313	88977.90625
+Marineosin B M+H	410.282	229.143036	18346.109375
+Marineosin B M+H	410.282	230.191315	54938.730469
+Marineosin B M+H	410.282	231.194763	13663.969727
+Marineosin B M+H	410.282	232.203247	7482.101074
+Marineosin B M+H	410.282	260.165802	31226.560547
+Marineosin B M+H	410.282	261.168976	7111.123047
+Marineosin B M+H	410.282	270.18631	147902
+Marineosin B M+H	410.282	271.189911	36585.230469
+Marineosin B M+H	410.282	286.217651	15989.759766
+Marineosin B M+H	410.282	287.219666	8095.442871
+Marineosin B M+H	410.282	302.212616	610875.5
+Marineosin B M+H	410.282	302.372314	29367.880859
+Marineosin B M+H	410.282	303.216278	171671
+Marineosin B M+H	410.282	304.219269	20419.949219
+Marineosin B M+H	410.282	336.20874	16546.269531
+Marineosin B M+H	410.282	337.214294	7884.958008
+Marineosin B M+H	410.282	360.244904	6402.390137
+Marineosin B M+H	410.282	361.229828	77138.671875
+Marineosin B M+H	410.282	362.233337	31581.910156
+Marineosin B M+H	410.282	378.255493	373515.09375
+Marineosin B M+H	410.282	379.259796	186558.5
+Marineosin B M+H	410.282	380.263702	35594.339844
+Marineosin B M+H	410.282	410.282104	31078.470703
+Marineosin B M+H	410.282	411.286255	15939.94043
+8-Desoxyrifamycin W M+H	640.312	53.039749	335.942688
+8-Desoxyrifamycin W M+H	640.312	55.018387	531.334778
+8-Desoxyrifamycin W M+H	640.312	55.054607	4876.655762
+8-Desoxyrifamycin W M+H	640.312	57.033978	2930.094971
+8-Desoxyrifamycin W M+H	640.312	57.069618	832.214722
+8-Desoxyrifamycin W M+H	640.312	59.050442	517.799377
+8-Desoxyrifamycin W M+H	640.312	65.039108	533.784973
+8-Desoxyrifamycin W M+H	640.312	67.054497	8017.495117
+8-Desoxyrifamycin W M+H	640.312	68.057854	505.411285
+8-Desoxyrifamycin W M+H	640.312	69.033676	3723.659912
+8-Desoxyrifamycin W M+H	640.312	69.07	5711.696777
+8-Desoxyrifamycin W M+H	640.312	70.073692	413.288513
+8-Desoxyrifamycin W M+H	640.312	71.049454	615.913513
+8-Desoxyrifamycin W M+H	640.312	77.038696	2507.38208
+8-Desoxyrifamycin W M+H	640.312	79.054108	2774.450928
+8-Desoxyrifamycin W M+H	640.312	80.05851	275.186798
+8-Desoxyrifamycin W M+H	640.312	81.070038	5382.576172
+8-Desoxyrifamycin W M+H	640.312	82.073288	455.530609
+8-Desoxyrifamycin W M+H	640.312	83.048637	877.774597
+8-Desoxyrifamycin W M+H	640.312	83.085381	2076.910889
+8-Desoxyrifamycin W M+H	640.312	85.065285	379.128693
+8-Desoxyrifamycin W M+H	640.312	87.044525	358.631714
+8-Desoxyrifamycin W M+H	640.312	91.054329	5049.539062
+8-Desoxyrifamycin W M+H	640.312	92.058884	334.764008
+8-Desoxyrifamycin W M+H	640.312	93.069931	8002.216797
+8-Desoxyrifamycin W M+H	640.312	94.074013	969.480225
+8-Desoxyrifamycin W M+H	640.312	95.049088	1427.427002
+8-Desoxyrifamycin W M+H	640.312	95.085518	27504.150391
+8-Desoxyrifamycin W M+H	640.312	96.088989	2612.743896
+8-Desoxyrifamycin W M+H	640.312	97.06472	2379.754883
+8-Desoxyrifamycin W M+H	640.312	97.098099	546.039978
+8-Desoxyrifamycin W M+H	640.312	99.08017	825.566223
+8-Desoxyrifamycin W M+H	640.312	103.053978	615.792786
+8-Desoxyrifamycin W M+H	640.312	105.069679	7538.160156
+8-Desoxyrifamycin W M+H	640.312	106.073036	881.226929
+8-Desoxyrifamycin W M+H	640.312	107.048912	469.053986
+8-Desoxyrifamycin W M+H	640.312	107.085403	7697.839844
+8-Desoxyrifamycin W M+H	640.312	108.057343	477.645508
+8-Desoxyrifamycin W M+H	640.312	108.087936	857.510376
+8-Desoxyrifamycin W M+H	640.312	109.064667	13730.280273
+8-Desoxyrifamycin W M+H	640.312	109.099846	8664.063477
+8-Desoxyrifamycin W M+H	640.312	109.159935	362.729889
+8-Desoxyrifamycin W M+H	640.312	110.067902	1438.365967
+8-Desoxyrifamycin W M+H	640.312	110.103241	984.917725
+8-Desoxyrifamycin W M+H	640.312	111.080086	12798
+8-Desoxyrifamycin W M+H	640.312	111.1791	277.696411
+8-Desoxyrifamycin W M+H	640.312	112.083626	1281.509033
+8-Desoxyrifamycin W M+H	640.312	113.059654	406.762787
+8-Desoxyrifamycin W M+H	640.312	113.09536	1067.496948
+8-Desoxyrifamycin W M+H	640.312	115.055832	370.506805
+8-Desoxyrifamycin W M+H	640.312	117.069633	1235.680054
+8-Desoxyrifamycin W M+H	640.312	119.085068	5662.451172
+8-Desoxyrifamycin W M+H	640.312	120.08847	666.160706
+8-Desoxyrifamycin W M+H	640.312	121.064705	4916.262207
+8-Desoxyrifamycin W M+H	640.312	121.100395	8272.012695
+8-Desoxyrifamycin W M+H	640.312	122.069244	851.293579
+8-Desoxyrifamycin W M+H	640.312	122.103706	1025.220947
+8-Desoxyrifamycin W M+H	640.312	123.080109	15432.990234
+8-Desoxyrifamycin W M+H	640.312	123.11364	4214.585938
+8-Desoxyrifamycin W M+H	640.312	123.182159	315.435394
+8-Desoxyrifamycin W M+H	640.312	124.083534	1795.68396
+8-Desoxyrifamycin W M+H	640.312	124.115295	530.84021
+8-Desoxyrifamycin W M+H	640.312	125.094765	1226.671997
+8-Desoxyrifamycin W M+H	640.312	128.062027	597.535583
+8-Desoxyrifamycin W M+H	640.312	129.078705	676.883423
+8-Desoxyrifamycin W M+H	640.312	130.076675	943.743225
+8-Desoxyrifamycin W M+H	640.312	131.084732	1567.71106
+8-Desoxyrifamycin W M+H	640.312	132.089188	283.28479
+8-Desoxyrifamycin W M+H	640.312	133.064453	1490.168945
+8-Desoxyrifamycin W M+H	640.312	133.100418	5414.349121
+8-Desoxyrifamycin W M+H	640.312	134.065506	368.7211
+8-Desoxyrifamycin W M+H	640.312	134.103775	765.465271
+8-Desoxyrifamycin W M+H	640.312	135.080322	3877.89502
+8-Desoxyrifamycin W M+H	640.312	135.114716	2457.148926
+8-Desoxyrifamycin W M+H	640.312	136.082687	736.868591
+8-Desoxyrifamycin W M+H	640.312	136.116577	344.225494
+8-Desoxyrifamycin W M+H	640.312	137.059494	395.347687
+8-Desoxyrifamycin W M+H	640.312	137.095352	2611.168945
+8-Desoxyrifamycin W M+H	640.312	138.096298	529.197205
+8-Desoxyrifamycin W M+H	640.312	139.074631	375.009003
+8-Desoxyrifamycin W M+H	640.312	139.110367	1379.527954
+8-Desoxyrifamycin W M+H	640.312	142.077835	610.508728
+8-Desoxyrifamycin W M+H	640.312	143.084915	1421.915039
+8-Desoxyrifamycin W M+H	640.312	144.089615	513.057922
+8-Desoxyrifamycin W M+H	640.312	145.100174	5319.229004
+8-Desoxyrifamycin W M+H	640.312	146.071808	440.426605
+8-Desoxyrifamycin W M+H	640.312	146.103836	799.000122
+8-Desoxyrifamycin W M+H	640.312	147.080338	1105.27002
+8-Desoxyrifamycin W M+H	640.312	147.115448	2164.456055
+8-Desoxyrifamycin W M+H	640.312	148.084244	355.640289
+8-Desoxyrifamycin W M+H	640.312	148.118164	430.084991
+8-Desoxyrifamycin W M+H	640.312	149.058487	581.150085
+8-Desoxyrifamycin W M+H	640.312	149.095016	2400.376953
+8-Desoxyrifamycin W M+H	640.312	149.13002	1569.208008
+8-Desoxyrifamycin W M+H	640.312	150.098114	450.683899
+8-Desoxyrifamycin W M+H	640.312	151.074692	13140.759766
+8-Desoxyrifamycin W M+H	640.312	152.078094	1847.060059
+8-Desoxyrifamycin W M+H	640.312	153.084747	357.618713
+8-Desoxyrifamycin W M+H	640.312	155.087921	490.555786
+8-Desoxyrifamycin W M+H	640.312	156.093292	511.72049
+8-Desoxyrifamycin W M+H	640.312	157.100449	1807.629028
+8-Desoxyrifamycin W M+H	640.312	158.072861	420.002808
+8-Desoxyrifamycin W M+H	640.312	158.105576	563.670471
+8-Desoxyrifamycin W M+H	640.312	159.079483	818.040283
+8-Desoxyrifamycin W M+H	640.312	159.115387	1983.730957
+8-Desoxyrifamycin W M+H	640.312	160.087326	489.963715
+8-Desoxyrifamycin W M+H	640.312	160.119141	506.234009
+8-Desoxyrifamycin W M+H	640.312	161.095764	4259.217773
+8-Desoxyrifamycin W M+H	640.312	161.128342	1508.890015
+8-Desoxyrifamycin W M+H	640.312	162.098663	799.140991
+8-Desoxyrifamycin W M+H	640.312	162.133392	276.50061
+8-Desoxyrifamycin W M+H	640.312	163.110825	4503.917969
+8-Desoxyrifamycin W M+H	640.312	164.113998	705.422791
+8-Desoxyrifamycin W M+H	640.312	165.089172	293.25589
+8-Desoxyrifamycin W M+H	640.312	167.104965	580.355713
+8-Desoxyrifamycin W M+H	640.312	169.100128	462.439697
+8-Desoxyrifamycin W M+H	640.312	170.107941	903.020996
+8-Desoxyrifamycin W M+H	640.312	171.115204	1030.514038
+8-Desoxyrifamycin W M+H	640.312	172.086258	430.518707
+8-Desoxyrifamycin W M+H	640.312	172.119247	354.805389
+8-Desoxyrifamycin W M+H	640.312	173.095245	2376.804932
+8-Desoxyrifamycin W M+H	640.312	173.128952	1728.267944
+8-Desoxyrifamycin W M+H	640.312	174.101013	963.699219
+8-Desoxyrifamycin W M+H	640.312	174.131454	445.996399
+8-Desoxyrifamycin W M+H	640.312	175.111069	2014.310059
+8-Desoxyrifamycin W M+H	640.312	175.14621	1813.196045
+8-Desoxyrifamycin W M+H	640.312	176.112701	414.9151
+8-Desoxyrifamycin W M+H	640.312	176.148376	438.8172
+8-Desoxyrifamycin W M+H	640.312	177.090286	802.874573
+8-Desoxyrifamycin W M+H	640.312	177.124634	933.168579
+8-Desoxyrifamycin W M+H	640.312	179.106506	1908.115967
+8-Desoxyrifamycin W M+H	640.312	180.1082	393.018097
+8-Desoxyrifamycin W M+H	640.312	183.115005	450.895996
+8-Desoxyrifamycin W M+H	640.312	185.130539	1031.892944
+8-Desoxyrifamycin W M+H	640.312	186.102844	451.395386
+8-Desoxyrifamycin W M+H	640.312	186.132996	284.084412
+8-Desoxyrifamycin W M+H	640.312	187.110733	777.889587
+8-Desoxyrifamycin W M+H	640.312	187.143768	475.343201
+8-Desoxyrifamycin W M+H	640.312	188.118347	306.094788
+8-Desoxyrifamycin W M+H	640.312	189.127899	804.669678
+8-Desoxyrifamycin W M+H	640.312	191.106033	1779.322998
+8-Desoxyrifamycin W M+H	640.312	192.108536	336.223602
+8-Desoxyrifamycin W M+H	640.312	195.120316	402.977905
+8-Desoxyrifamycin W M+H	640.312	199.109467	302.906006
+8-Desoxyrifamycin W M+H	640.312	201.12706	768.107483
+8-Desoxyrifamycin W M+H	640.312	203.142181	1150.657959
+8-Desoxyrifamycin W M+H	640.312	209.11792	316.325287
+8-Desoxyrifamycin W M+H	640.312	210.137589	316.03299
+8-Desoxyrifamycin W M+H	640.312	213.126266	745.25647
+8-Desoxyrifamycin W M+H	640.312	215.14064	398.124695
+8-Desoxyrifamycin W M+H	640.312	215.174042	285.997986
+8-Desoxyrifamycin W M+H	640.312	217.049438	539.064819
+8-Desoxyrifamycin W M+H	640.312	220.058884	456.674591
+8-Desoxyrifamycin W M+H	640.312	225.162033	404.670105
+8-Desoxyrifamycin W M+H	640.312	228.027695	309.571014
+8-Desoxyrifamycin W M+H	640.312	228.062286	360.336792
+8-Desoxyrifamycin W M+H	640.312	229.061966	396.577789
+8-Desoxyrifamycin W M+H	640.312	231.032028	1101.218018
+8-Desoxyrifamycin W M+H	640.312	231.137604	541.852112
+8-Desoxyrifamycin W M+H	640.312	232.059448	2385.423096
+8-Desoxyrifamycin W M+H	640.312	233.061966	418.414215
+8-Desoxyrifamycin W M+H	640.312	241.065277	320.324005
+8-Desoxyrifamycin W M+H	640.312	242.079727	560.644775
+8-Desoxyrifamycin W M+H	640.312	243.071304	519.659973
+8-Desoxyrifamycin W M+H	640.312	243.173767	617.077576
+8-Desoxyrifamycin W M+H	640.312	244.064438	677.942078
+8-Desoxyrifamycin W M+H	640.312	245.067459	626.074524
+8-Desoxyrifamycin W M+H	640.312	246.039352	26871.960938
+8-Desoxyrifamycin W M+H	640.312	247.043015	4596.081055
+8-Desoxyrifamycin W M+H	640.312	248.049835	949.131592
+8-Desoxyrifamycin W M+H	640.312	253.076599	291.38501
+8-Desoxyrifamycin W M+H	640.312	253.156479	283.042908
+8-Desoxyrifamycin W M+H	640.312	254.08165	393.807312
+8-Desoxyrifamycin W M+H	640.312	255.074799	757.21698
+8-Desoxyrifamycin W M+H	640.312	256.068756	821.383972
+8-Desoxyrifamycin W M+H	640.312	257.079468	3466.643066
+8-Desoxyrifamycin W M+H	640.312	258.077728	2930.25708
+8-Desoxyrifamycin W M+H	640.312	259.075958	1108.704956
+8-Desoxyrifamycin W M+H	640.312	260.079773	303.277191
+8-Desoxyrifamycin W M+H	640.312	268.07959	306.691986
+8-Desoxyrifamycin W M+H	640.312	269.085632	309.127197
+8-Desoxyrifamycin W M+H	640.312	270.078857	983.742126
+8-Desoxyrifamycin W M+H	640.312	271.083069	1632.894043
+8-Desoxyrifamycin W M+H	640.312	271.168243	660.274902
+8-Desoxyrifamycin W M+H	640.312	272.089661	2327.306885
+8-Desoxyrifamycin W M+H	640.312	273.077393	611.15863
+8-Desoxyrifamycin W M+H	640.312	274.071045	4258.768066
+8-Desoxyrifamycin W M+H	640.312	275.073792	1150.146973
+8-Desoxyrifamycin W M+H	640.312	276.083801	493.689514
+8-Desoxyrifamycin W M+H	640.312	280.097656	565.692078
+8-Desoxyrifamycin W M+H	640.312	281.084717	593.272278
+8-Desoxyrifamycin W M+H	640.312	282.081085	427.644592
+8-Desoxyrifamycin W M+H	640.312	283.087189	971.812317
+8-Desoxyrifamycin W M+H	640.312	284.091156	675.832825
+8-Desoxyrifamycin W M+H	640.312	285.093628	300.305786
+8-Desoxyrifamycin W M+H	640.312	286.088013	469
+8-Desoxyrifamycin W M+H	640.312	288.087219	530.337708
+8-Desoxyrifamycin W M+H	640.312	289.179596	435.109192
+8-Desoxyrifamycin W M+H	640.312	295.090179	442.350891
+8-Desoxyrifamycin W M+H	640.312	296.091827	762.882812
+8-Desoxyrifamycin W M+H	640.312	297.094086	336.81781
+8-Desoxyrifamycin W M+H	640.312	298.106476	2367.150879
+8-Desoxyrifamycin W M+H	640.312	299.098206	1115.259033
+8-Desoxyrifamycin W M+H	640.312	300.092682	418.631195
+8-Desoxyrifamycin W M+H	640.312	308.093445	691.767212
+8-Desoxyrifamycin W M+H	640.312	309.092133	526.657471
+8-Desoxyrifamycin W M+H	640.312	310.104736	995.867676
+8-Desoxyrifamycin W M+H	640.312	311.102234	465.135986
+8-Desoxyrifamycin W M+H	640.312	312.107178	295.242188
+8-Desoxyrifamycin W M+H	640.312	314.102631	1117.845947
+8-Desoxyrifamycin W M+H	640.312	315.105652	403.401398
+8-Desoxyrifamycin W M+H	640.312	316.116852	1166.145996
+8-Desoxyrifamycin W M+H	640.312	317.120575	325.369507
+8-Desoxyrifamycin W M+H	640.312	321.106445	441.477509
+8-Desoxyrifamycin W M+H	640.312	322.107025	355.060089
+8-Desoxyrifamycin W M+H	640.312	323.104828	276.950592
+8-Desoxyrifamycin W M+H	640.312	324.103821	382.337189
+8-Desoxyrifamycin W M+H	640.312	326.101898	2460.884033
+8-Desoxyrifamycin W M+H	640.312	327.104462	733.702881
+8-Desoxyrifamycin W M+H	640.312	328.115265	353.071198
+8-Desoxyrifamycin W M+H	640.312	336.110352	341.101715
+8-Desoxyrifamycin W M+H	640.312	338.118896	630.149109
+8-Desoxyrifamycin W M+H	640.312	344.116638	317.791687
+8-Desoxyrifamycin W M+H	640.312	348.121368	382.452301
+8-Desoxyrifamycin W M+H	640.312	350.111176	366.316986
+8-Desoxyrifamycin W M+H	640.312	351.113953	277.998901
+8-Desoxyrifamycin W M+H	640.312	352.102997	338.083588
+8-Desoxyrifamycin W M+H	640.312	354.130707	329.569305
+8-Desoxyrifamycin W M+H	640.312	366.128876	785.908813
+8-Desoxyrifamycin W M+H	640.312	367.130371	323.987091
+8-Desoxyrifamycin W M+H	640.312	368.118317	296.310608
+8-Desoxyrifamycin W M+H	640.312	378.138733	304.198486
+8-Desoxyrifamycin W M+H	640.312	379.140015	355.980408
+8-Desoxyrifamycin W M+H	640.312	380.148499	567.946228
+8-Desoxyrifamycin W M+H	640.312	384.145416	379.797913
+8-Desoxyrifamycin W M+H	640.312	394.129303	786.301086
+8-Desoxyrifamycin W M+H	640.312	395.134979	372.227997
+8-Desoxyrifamycin W M+H	640.312	408.149109	449.601105
+8-Desoxyrifamycin W M+H	640.312	424.167603	333.169006
+8-Desoxyrifamycin W M+H	640.312	436.175232	654.493225
+8-Desoxyrifamycin W M+H	640.312	546.247375	306.015106
+8-Desoxyrifamycin W M+H	640.312	586.279968	1446.196045
+8-Desoxyrifamycin W M+H	640.312	587.282227	834.015625
+8-Desoxyrifamycin W M+H	640.312	604.290405	2158.922119
+8-Desoxyrifamycin W M+H	640.312	605.294312	1264.540039
+8-Desoxyrifamycin W M+H	640.312	606.296753	378.960785
+8-Desoxyrifamycin W M+H	640.312	622.301819	408.964386
+Antanapeptin A M+Na	759.23	535.160889	44391
+Antanapeptin A M+Na	759.23	536.272217	18837
+Antanapeptin A M+Na	759.23	598.307373	46740
+Antanapeptin A M+Na	759.23	632.200195	1465485
+Antanapeptin A M+Na	759.23	633.241211	454776
+Antanapeptin A M+Na	759.23	758.456421	21493
+Antanapeptin A M+Na	759.23	759.272461	1283110
+Antanapeptin A M+Na	759.23	760.262085	69068
+Saliniketal A M+H	396.274	51.023392	173.710907
+Saliniketal A M+H	396.274	53.039051	509.461609
+Saliniketal A M+H	396.274	55.018326	374.875
+Saliniketal A M+H	396.274	55.054649	5048.265137
+Saliniketal A M+H	396.274	56.055988	330.789703
+Saliniketal A M+H	396.274	57.034	698.787781
+Saliniketal A M+H	396.274	57.07045	512.12323
+Saliniketal A M+H	396.274	58.066059	134.102402
+Saliniketal A M+H	396.274	59.049431	220.288498
+Saliniketal A M+H	396.274	61.027744	121.422302
+Saliniketal A M+H	396.274	65.038864	691.848083
+Saliniketal A M+H	396.274	67.054443	7118.079102
+Saliniketal A M+H	396.274	67.130478	137.416702
+Saliniketal A M+H	396.274	68.056076	547.418396
+Saliniketal A M+H	396.274	69.033737	1666.094971
+Saliniketal A M+H	396.274	69.069946	2049.493896
+Saliniketal A M+H	396.274	70.068504	291.433594
+Saliniketal A M+H	396.274	71.049339	2132.50708
+Saliniketal A M+H	396.274	77.038712	3345.906982
+Saliniketal A M+H	396.274	78.041344	335.335785
+Saliniketal A M+H	396.274	79.054283	4232.756836
+Saliniketal A M+H	396.274	80.058174	418.498413
+Saliniketal A M+H	396.274	81.033798	124.968697
+Saliniketal A M+H	396.274	81.069817	3117.099121
+Saliniketal A M+H	396.274	82.068398	465.665497
+Saliniketal A M+H	396.274	83.049149	1556.069946
+Saliniketal A M+H	396.274	83.083244	252.695007
+Saliniketal A M+H	396.274	84.081238	164.473099
+Saliniketal A M+H	396.274	85.06469	1174.35498
+Saliniketal A M+H	396.274	91.054321	7092.356934
+Saliniketal A M+H	396.274	91.142708	138.363007
+Saliniketal A M+H	396.274	92.057182	695.831604
+Saliniketal A M+H	396.274	93.069748	5316.991211
+Saliniketal A M+H	396.274	94.072067	715.382324
+Saliniketal A M+H	396.274	95.049355	673.906982
+Saliniketal A M+H	396.274	95.085403	11661.969727
+Saliniketal A M+H	396.274	95.176239	270.040314
+Saliniketal A M+H	396.274	96.04435	1014.528015
+Saliniketal A M+H	396.274	96.08773	1165.626953
+Saliniketal A M+H	396.274	97.029518	233.342606
+Saliniketal A M+H	396.274	97.062279	677.866577
+Saliniketal A M+H	396.274	98.060791	347.234406
+Saliniketal A M+H	396.274	99.043945	2239.316895
+Saliniketal A M+H	396.274	99.07634	348.168915
+Saliniketal A M+H	396.274	100.04715	141.946198
+Saliniketal A M+H	396.274	101.058807	165.768906
+Saliniketal A M+H	396.274	103.054024	631.476685
+Saliniketal A M+H	396.274	104.059998	132.028793
+Saliniketal A M+H	396.274	105.069611	7412.862793
+Saliniketal A M+H	396.274	105.16571	144.532593
+Saliniketal A M+H	396.274	106.073166	847.707581
+Saliniketal A M+H	396.274	107.049248	343.524414
+Saliniketal A M+H	396.274	107.08522	6248.701172
+Saliniketal A M+H	396.274	108.056313	496.380402
+Saliniketal A M+H	396.274	108.086853	933.76062
+Saliniketal A M+H	396.274	109.064461	2279.356934
+Saliniketal A M+H	396.274	109.09903	1223.887939
+Saliniketal A M+H	396.274	110.06086	1270.008057
+Saliniketal A M+H	396.274	110.095894	522.708374
+Saliniketal A M+H	396.274	111.079132	628.486328
+Saliniketal A M+H	396.274	112.077827	187.798492
+Saliniketal A M+H	396.274	113.095581	853.708618
+Saliniketal A M+H	396.274	115.054184	787.575317
+Saliniketal A M+H	396.274	116.060677	326.524994
+Saliniketal A M+H	396.274	117.069107	1354.121948
+Saliniketal A M+H	396.274	118.073929	241.603104
+Saliniketal A M+H	396.274	119.085091	2553.906006
+Saliniketal A M+H	396.274	120.089317	396.227112
+Saliniketal A M+H	396.274	121.064316	1520.598999
+Saliniketal A M+H	396.274	121.100258	2074.729004
+Saliniketal A M+H	396.274	122.069801	291.217987
+Saliniketal A M+H	396.274	122.102684	331.643402
+Saliniketal A M+H	396.274	123.079849	3848.768066
+Saliniketal A M+H	396.274	124.082893	503.636688
+Saliniketal A M+H	396.274	125.095154	403.724396
+Saliniketal A M+H	396.274	127.053627	172.1633
+Saliniketal A M+H	396.274	128.061478	742.022278
+Saliniketal A M+H	396.274	129.068787	1095.19397
+Saliniketal A M+H	396.274	130.076813	1916.921021
+Saliniketal A M+H	396.274	131.083359	1000.810974
+Saliniketal A M+H	396.274	132.085693	218.479507
+Saliniketal A M+H	396.274	133.064453	1188.215942
+Saliniketal A M+H	396.274	133.09967	1707.375977
+Saliniketal A M+H	396.274	134.068649	202.770096
+Saliniketal A M+H	396.274	134.10376	289.493713
+Saliniketal A M+H	396.274	135.080063	1429.534058
+Saliniketal A M+H	396.274	135.115616	2303.570068
+Saliniketal A M+H	396.274	136.081238	335.285187
+Saliniketal A M+H	396.274	136.118896	331.365112
+Saliniketal A M+H	396.274	137.059372	129.693893
+Saliniketal A M+H	396.274	137.093628	346.330902
+Saliniketal A M+H	396.274	137.126556	169.353302
+Saliniketal A M+H	396.274	138.090652	630.748413
+Saliniketal A M+H	396.274	139.102478	127.679703
+Saliniketal A M+H	396.274	141.087875	755.166382
+Saliniketal A M+H	396.274	142.078339	502.015503
+Saliniketal A M+H	396.274	143.084732	863.214111
+Saliniketal A M+H	396.274	144.09082	358.3797
+Saliniketal A M+H	396.274	145.06572	213.2285
+Saliniketal A M+H	396.274	145.100357	3579.664062
+Saliniketal A M+H	396.274	146.070496	206.560501
+Saliniketal A M+H	396.274	146.103607	652.911377
+Saliniketal A M+H	396.274	147.079834	862.255371
+Saliniketal A M+H	396.274	147.114075	839.987976
+Saliniketal A M+H	396.274	148.087769	1488.737061
+Saliniketal A M+H	396.274	149.058899	162.387299
+Saliniketal A M+H	396.274	149.094864	906.352783
+Saliniketal A M+H	396.274	150.094681	317.550293
+Saliniketal A M+H	396.274	151.074997	1070.389038
+Saliniketal A M+H	396.274	152.078339	205.473801
+Saliniketal A M+H	396.274	153.070404	205.691193
+Saliniketal A M+H	396.274	153.125488	177.594696
+Saliniketal A M+H	396.274	154.075592	116.978401
+Saliniketal A M+H	396.274	155.084732	498.262085
+Saliniketal A M+H	396.274	156.091904	384.251007
+Saliniketal A M+H	396.274	157.099792	511.15799
+Saliniketal A M+H	396.274	158.071854	378.074188
+Saliniketal A M+H	396.274	158.103897	305.018707
+Saliniketal A M+H	396.274	159.080002	315.703094
+Saliniketal A M+H	396.274	159.114594	422.489105
+Saliniketal A M+H	396.274	160.086243	275.101898
+Saliniketal A M+H	396.274	160.114609	149.576294
+Saliniketal A M+H	396.274	161.095276	796.89447
+Saliniketal A M+H	396.274	161.12735	261.344208
+Saliniketal A M+H	396.274	162.100235	176.823196
+Saliniketal A M+H	396.274	163.110962	10544.629883
+Saliniketal A M+H	396.274	163.230118	186.791
+Saliniketal A M+H	396.274	164.11412	1746.115967
+Saliniketal A M+H	396.274	165.068771	122.413597
+Saliniketal A M+H	396.274	165.12207	208.499496
+Saliniketal A M+H	396.274	167.086441	151.295807
+Saliniketal A M+H	396.274	168.096985	146.701294
+Saliniketal A M+H	396.274	169.100754	237.389801
+Saliniketal A M+H	396.274	170.107635	308.247803
+Saliniketal A M+H	396.274	171.114578	324.107086
+Saliniketal A M+H	396.274	172.0867	182.856506
+Saliniketal A M+H	396.274	172.118225	170.065399
+Saliniketal A M+H	396.274	173.095108	768.852478
+Saliniketal A M+H	396.274	173.12944	386.454498
+Saliniketal A M+H	396.274	174.101852	250.491104
+Saliniketal A M+H	396.274	175.110153	420.263
+Saliniketal A M+H	396.274	175.145248	325.962585
+Saliniketal A M+H	396.274	176.112137	145.424103
+Saliniketal A M+H	396.274	179.103073	190.237503
+Saliniketal A M+H	396.274	180.136887	189.858093
+Saliniketal A M+H	396.274	181.121262	529.248718
+Saliniketal A M+H	396.274	182.116074	137.101395
+Saliniketal A M+H	396.274	183.115891	142.371597
+Saliniketal A M+H	396.274	185.131836	276.01889
+Saliniketal A M+H	396.274	187.110519	147.232101
+Saliniketal A M+H	396.274	187.144821	205.967697
+Saliniketal A M+H	396.274	189.126358	199.921204
+Saliniketal A M+H	396.274	190.124527	174.971603
+Saliniketal A M+H	396.274	191.105957	1787.858032
+Saliniketal A M+H	396.274	192.1091	343.127686
+Saliniketal A M+H	396.274	195.114212	133.298798
+Saliniketal A M+H	396.274	197.130096	141.763901
+Saliniketal A M+H	396.274	199.129593	212.226395
+Saliniketal A M+H	396.274	203.141495	381.761505
+Saliniketal A M+H	396.274	208.132614	1058.348999
+Saliniketal A M+H	396.274	209.134125	303.514893
+Saliniketal A M+H	396.274	215.140533	187.877808
+Saliniketal A M+H	396.274	221.152023	136.434799
+Saliniketal A M+H	396.274	267.173859	147.883301
+Saliniketal A M+H	396.274	343.229675	130.966507
+Dolastatin_10 M+H	785.23	373.870544	4667173
+Dolastatin_10 M+H	785.23	496.055634	547537
+Dolastatin_10 M+H	785.23	559.014038	30946192
+Dolastatin_10 M+H	785.23	658.192383	630022
+Dolastatin_10 M+H	785.23	753.227905	37462672
+Enterocin M+H	445.113	51.023438	952.8703
+Enterocin M+H	445.113	53.03867	457.406403
+Enterocin M+H	445.113	55.017998	598.021301
+Enterocin M+H	445.113	59.013309	1025.952026
+Enterocin M+H	445.113	67.018135	270.810486
+Enterocin M+H	445.113	68.997368	2301.187012
+Enterocin M+H	445.113	69.033783	2762.389893
+Enterocin M+H	445.113	77.038544	15313.599609
+Enterocin M+H	445.113	77.119995	328.96991
+Enterocin M+H	445.113	78.041969	995.99762
+Enterocin M+H	445.113	91.054146	364.419586
+Enterocin M+H	445.113	93.033203	299.985199
+Enterocin M+H	445.113	95.01329	296.339905
+Enterocin M+H	445.113	95.048065	346.382202
+Enterocin M+H	445.113	99.04335	439.678894
+Enterocin M+H	445.113	103.053574	343.501404
+Enterocin M+H	445.113	105.033104	23510.169922
+Enterocin M+H	445.113	106.03653	2295.715088
+Enterocin M+H	445.113	108.020416	287.325104
+Enterocin M+H	445.113	109.027718	274.805206
+Enterocin M+H	445.113	111.04332	509.958801
+Enterocin M+H	445.113	115.054298	258.81311
+Enterocin M+H	445.113	123.043198	452.690002
+Enterocin M+H	445.113	125.022545	4011.010986
+Enterocin M+H	445.113	126.026016	518.213989
+Enterocin M+H	445.113	131.048752	294.650208
+Enterocin M+H	445.113	133.064087	290.251801
+Enterocin M+H	445.113	135.044479	253.945297
+Enterocin M+H	445.113	137.023483	344.905396
+Enterocin M+H	445.113	137.057114	260.84671
+Enterocin M+H	445.113	139.038513	645.287476
+Enterocin M+H	445.113	141.056458	709.452698
+Enterocin M+H	445.113	147.042694	958.75
+Enterocin M+H	445.113	151.0383	414.984192
+Enterocin M+H	445.113	153.064835	317.477203
+Enterocin M+H	445.113	161.058655	629.200684
+Enterocin M+H	445.113	165.064377	486.433014
+Enterocin M+H	445.113	167.032898	2433.694092
+Enterocin M+H	445.113	168.036804	348.400085
+Enterocin M+H	445.113	177.053253	550.285217
+Enterocin M+H	445.113	179.070526	257.289612
+Enterocin M+H	445.113	189.055267	491.600494
+Enterocin M+H	445.113	193.050812	336.28241
+Enterocin M+H	445.113	195.063583	245.158798
+Enterocin M+H	445.113	197.059799	250.339996
+Enterocin M+H	445.113	202.075668	238.417999
+Enterocin M+H	445.113	205.050186	372.917786
+Enterocin M+H	445.113	207.066299	350.531494
+Enterocin M+H	445.113	235.058182	479.901398
+Enterocin M+H	445.113	251.054886	413.658813
+Enterocin M+H	445.113	445.111084	265.218689
+Dolastatin_12 M+H	969.29	280.931396	197846
+Dolastatin_12 M+H	969.29	387.873627	150265
+Dolastatin_12 M+H	969.29	421.918945	137829
+Dolastatin_12 M+H	969.29	451.043213	116321
+Dolastatin_12 M+H	969.29	459.035736	105559
+Dolastatin_12 M+H	969.29	468.958862	194932
+Dolastatin_12 M+H	969.29	479.029053	135440
+Dolastatin_12 M+H	969.29	497.016571	624486
+Dolastatin_12 M+H	969.29	500.983124	271619
+Dolastatin_12 M+H	969.29	519.054443	112296
+Dolastatin_12 M+H	969.29	536.21698	123584
+Dolastatin_12 M+H	969.29	553.993713	163955
+Dolastatin_12 M+H	969.29	592.05072	1944298
+Dolastatin_12 M+H	969.29	649.256226	550619
+Dolastatin_12 M+H	969.29	667.175598	878618
+Dolastatin_12 M+H	969.29	672.085571	328095
+Dolastatin_12 M+H	969.29	685.088013	105980
+Dolastatin_12 M+H	969.29	703.084717	250297
+Dolastatin_12 M+H	969.29	743.183167	118481
+Dolastatin_12 M+H	969.29	753.122131	521245
+Dolastatin_12 M+H	969.29	799.127319	303630
+Dolastatin_12 M+H	969.29	810.24408	130749
+Dolastatin_12 M+H	969.29	814.090271	117222
+Dolastatin_12 M+H	969.29	828.132263	351946
+Dolastatin_12 M+H	969.29	838.273376	516408
+Dolastatin_12 M+H	969.29	842.168823	1503901
+Dolastatin_12 M+H	969.29	856.176208	652844
+Dolastatin_12 M+H	969.29	894.110352	148955
+Dolastatin_12 M+H	969.29	925.240112	1173968
+Dolastatin_12 M+H	969.29	941.34375	101617
+Dolastatin_12 M+H	969.29	951.377686	9766727
+Dolastatin_12 M+H	969.29	952.311462	200249
+Dolastatin_12 M+H	969.29	968.278137	106386
+Dolastatin_12 M+H	969.29	969.319092	117679
+Enterocin M+Na	467.095	77.035988	14.00111
+Enterocin M+Na	467.095	105.032913	25.896589
+Enterocin M+Na	467.095	213.048187	11.78368
+Enterocin M+Na	467.095	273.03183	11.80854
+Enterocin M+Na	467.095	274.040375	10.93597
+Enterocin M+Na	467.095	275.052307	13.26956
+Enterocin M+Na	467.095	321.0625	13.74326
+Enterocin M+Na	467.095	389.498993	17.9
+Enterocin M+Na	467.095	405.085083	12.88708
+Enterocin M+Na	467.095	423.093567	15.23946
+Enterocin M+Na	467.095	424.116821	12.86511
+Enterocin M+Na	467.095	449.080719	88.123993
+Enterocin M+Na	467.095	450.086395	40.22583
+Enterocin M+Na	467.095	467.093933	966.648987
+Enterocin M+Na	467.095	467.292999	11.78135
+Enterocin M+Na	467.095	468.09967	365.549286
+Enterocin M+Na	467.095	469.096771	133.045593
+Enterocin M+Na	467.095	470.103821	21.54722
+Enterocin M+Na	467.095	849.128296	13.24138
+Dolastatin_16 M+H	879.34	383.054443	7669972
+Dolastatin_16 M+H	879.34	412.150024	57494480
+Dolastatin_16 M+H	879.34	413.115479	7518609
+Dolastatin_16 M+H	879.34	509.153748	2351075
+Dolastatin_16 M+H	879.34	655.224976	2103420
+Dolastatin_16 M+H	879.34	684.147583	169524992
+Dolastatin_16 M+H	879.34	685.128906	57263184
+Dolastatin_16 M+H	879.34	688.343994	4809189
+Dolastatin_16 M+H	879.34	851.233398	20763504
+Dolastatin_16 M+H	879.34	852.216064	7227740
+Lomaiviticin C M+H	670.274	58.065224	15.74167
+Lomaiviticin C M+H	670.274	59.050903	113.430298
+Lomaiviticin C M+H	670.274	65.038765	15.66779
+Lomaiviticin C M+H	670.274	69.033798	118.903099
+Lomaiviticin C M+H	670.274	69.069832	27.674999
+Lomaiviticin C M+H	670.274	70.035553	18.773939
+Lomaiviticin C M+H	670.274	70.06279	78.632767
+Lomaiviticin C M+H	670.274	70.812531	10.74856
+Lomaiviticin C M+H	670.274	72.081787	618.010925
+Lomaiviticin C M+H	670.274	72.162033	14.33991
+Lomaiviticin C M+H	670.274	72.50869	25.32143
+Lomaiviticin C M+H	670.274	72.877991	11.33333
+Lomaiviticin C M+H	670.274	80.951736	19.160259
+Lomaiviticin C M+H	670.274	84.080177	22.26239
+Lomaiviticin C M+H	670.274	85.065216	112.5867
+Lomaiviticin C M+H	670.274	86.096718	97.71524
+Lomaiviticin C M+H	670.274	95.050201	115.445801
+Lomaiviticin C M+H	670.274	95.178421	24.36915
+Lomaiviticin C M+H	670.274	96.048103	30.252529
+Lomaiviticin C M+H	670.274	98.558197	30.97917
+Lomaiviticin C M+H	670.274	99.088173	12.35539
+Lomaiviticin C M+H	670.274	101.058838	32.78009
+Lomaiviticin C M+H	670.274	110.067764	70.70546
+Lomaiviticin C M+H	670.274	113.05896	443.472595
+Lomaiviticin C M+H	670.274	114.064888	85.056549
+Lomaiviticin C M+H	670.274	120.069244	50.695621
+Lomaiviticin C M+H	670.274	125.103104	20.77174
+Lomaiviticin C M+H	670.274	127.04969	20.81349
+Lomaiviticin C M+H	670.274	127.088348	27.593929
+Lomaiviticin C M+H	670.274	127.71698	18.713539
+Lomaiviticin C M+H	670.274	128.072983	18.185181
+Lomaiviticin C M+H	670.274	130.085907	41.424999
+Lomaiviticin C M+H	670.274	140.105057	48.77335
+Lomaiviticin C M+H	670.274	145.084488	423.713196
+Lomaiviticin C M+H	670.274	146.08992	36.53764
+Lomaiviticin C M+H	670.274	158.11702	1026.972046
+Lomaiviticin C M+H	670.274	158.205215	11.77976
+Lomaiviticin C M+H	670.274	158.261017	10.4422
+Lomaiviticin C M+H	670.274	158.496796	12.58974
+Lomaiviticin C M+H	670.274	158.634262	16.506941
+Lomaiviticin C M+H	670.274	159.121658	134.451797
+Lomaiviticin C M+H	670.274	159.596054	12.0119
+Lomaiviticin C M+H	670.274	160.119385	26.96014
+Lomaiviticin C M+H	670.274	160.220932	17.92905
+Lomaiviticin C M+H	670.274	161.111908	31.551359
+Lomaiviticin C M+H	670.274	162.585907	12.67157
+Lomaiviticin C M+H	670.274	166.099777	11.66667
+Lomaiviticin C M+H	670.274	171.100571	27.320511
+Lomaiviticin C M+H	670.274	176.126984	749.721802
+Lomaiviticin C M+H	670.274	176.696564	11.67361
+Lomaiviticin C M+H	670.274	177.133484	115.277802
+Lomaiviticin C M+H	670.274	177.503784	24.078489
+Lomaiviticin C M+H	670.274	183.451294	11.49597
+Lomaiviticin C M+H	670.274	187.070374	34.08884
+Lomaiviticin C M+H	670.274	189.082947	18.672621
+Lomaiviticin C M+H	670.274	193.093338	32.967739
+Lomaiviticin C M+H	670.274	201.506577	14.96451
+Lomaiviticin C M+H	670.274	202.128448	29.911579
+Lomaiviticin C M+H	670.274	213.083206	12.33514
+Lomaiviticin C M+H	670.274	227.126694	11.33468
+Lomaiviticin C M+H	670.274	231.040924	24.823721
+Lomaiviticin C M+H	670.274	240.138123	12.00278
+Lomaiviticin C M+H	670.274	244.131088	20.66786
+Lomaiviticin C M+H	670.274	270.863983	22.02586
+Lomaiviticin C M+H	670.274	270.977905	19.40221
+Lomaiviticin C M+H	670.274	281.041046	30.09091
+Lomaiviticin C M+H	670.274	282.037109	17.702379
+Lomaiviticin C M+H	670.274	283.13208	37.91177
+Lomaiviticin C M+H	670.274	302.199158	40.430111
+Lomaiviticin C M+H	670.274	318.139587	25.561991
+Lomaiviticin C M+H	670.274	319.060883	11.26042
+Lomaiviticin C M+H	670.274	320.633759	14.38816
+Lomaiviticin C M+H	670.274	332.020386	23.390961
+Lomaiviticin C M+H	670.274	333.947876	12.08013
+Lomaiviticin C M+H	670.274	336.976318	30.29529
+Lomaiviticin C M+H	670.274	337.074615	136.407593
+Lomaiviticin C M+H	670.274	338.073639	43.402771
+Lomaiviticin C M+H	670.274	339.078033	33.103451
+Lomaiviticin C M+H	670.274	339.918976	47.708328
+Lomaiviticin C M+H	670.274	347.062042	47.78513
+Lomaiviticin C M+H	670.274	347.864746	11.00694
+Lomaiviticin C M+H	670.274	348.047607	12.74167
+Lomaiviticin C M+H	670.274	352.097321	13.93895
+Lomaiviticin C M+H	670.274	360.189636	15.7963
+Lomaiviticin C M+H	670.274	360.973755	15.375
+Lomaiviticin C M+H	670.274	372.131287	10.7619
+Lomaiviticin C M+H	670.274	379.035858	28.71212
+Lomaiviticin C M+H	670.274	381.841217	20.00872
+Lomaiviticin C M+H	670.274	384.179016	17.046169
+Lomaiviticin C M+H	670.274	393.016266	31.354759
+Lomaiviticin C M+H	670.274	395.211609	20.67029
+Lomaiviticin C M+H	670.274	401.012543	11.69167
+Lomaiviticin C M+H	670.274	407.213989	10.96429
+Lomaiviticin C M+H	670.274	413.08017	18.223761
+Lomaiviticin C M+H	670.274	424.243439	24.3631
+Lomaiviticin C M+H	670.274	427.32016	13.15
+Lomaiviticin C M+H	670.274	428.596558	19.573721
+Lomaiviticin C M+H	670.274	430.134155	23.64378
+Lomaiviticin C M+H	670.274	439.135925	15.71627
+Lomaiviticin C M+H	670.274	441.20459	13.72024
+Lomaiviticin C M+H	670.274	443.128754	27.00082
+Lomaiviticin C M+H	670.274	463.279724	27.7787
+Lomaiviticin C M+H	670.274	481.989349	24.870831
+Lomaiviticin C M+H	670.274	482.1521	11.70455
+Lomaiviticin C M+H	670.274	485.23584	13.75521
+Lomaiviticin C M+H	670.274	510.265259	16.75
+Lomaiviticin C M+H	670.274	518.610535	42.42149
+Lomaiviticin C M+H	670.274	518.979004	17.771931
+Lomaiviticin C M+H	670.274	525.569885	25.07184
+Lomaiviticin C M+H	670.274	526.203979	23.04344
+Lomaiviticin C M+H	670.274	528.241821	21.16667
+Lomaiviticin C M+H	670.274	528.597717	12.79688
+Lomaiviticin C M+H	670.274	531.538147	10.375
+Lomaiviticin C M+H	670.274	531.808838	30.810181
+Lomaiviticin C M+H	670.274	532.096191	11.4221
+Lomaiviticin C M+H	670.274	543.263	11.11667
+Lomaiviticin C M+H	670.274	558.01593	14.06349
+Lomaiviticin C M+H	670.274	558.763184	18.02564
+Lomaiviticin C M+H	670.274	559.368103	27.48521
+Lomaiviticin C M+H	670.274	566.244751	16.28167
+Lomaiviticin C M+H	670.274	573.203735	12.39167
+Lomaiviticin C M+H	670.274	576.200317	12.60119
+Lomaiviticin C M+H	670.274	576.985718	21.00219
+Lomaiviticin C M+H	670.274	581.061523	11.85698
+Lomaiviticin C M+H	670.274	582.005432	11
+Lomaiviticin C M+H	670.274	582.21875	25.606819
+Lomaiviticin C M+H	670.274	590.322388	30.578251
+Lomaiviticin C M+H	670.274	609.215515	14.85965
+Lomaiviticin C M+H	670.274	615.354065	11.67424
+Lomaiviticin C M+H	670.274	617.082886	12.68056
+Lomaiviticin C M+H	670.274	623.98761	15.92045
+Lomaiviticin C M+H	670.274	626.070923	10.57615
+Lomaiviticin C M+H	670.274	629.077209	11.51042
+Lomaiviticin C M+H	670.274	630.640808	19.047621
+Lomaiviticin C M+H	670.274	632.272644	12.675
+Lomaiviticin C M+H	670.274	649.820618	12.79688
+Lomaiviticin C M+H	670.274	659.155273	21.864031
+Lomaiviticin C M+H	670.274	661.907593	22.375
+Lomaiviticin C M+H	670.274	670.264221	14.68627
+Lomaiviticin C M+H	670.274	670.318237	11.66667
+Lomaiviticin C M+H	670.274	670.865662	35.566669
+Lomaiviticin C M+H	670.274	671.234009	18
+Lomaiviticin C M+H	670.274	671.376465	42.64209
+Lomaiviticin C M+H	670.274	672.036377	14.92747
+Lomaiviticin C M+H	670.274	672.298889	33.853329
+Lomaiviticin C M+H	670.274	672.800964	10.34091
+Lomaiviticin C M+H	670.274	673.145325	21.70525
+Lomaiviticin C M+H	670.274	673.788574	27.48214
+Lomaiviticin C M+H	670.274	683.726868	14.42424
+Lomaiviticin C M+H	670.274	688.565186	28.592661
+Lomaiviticin C M+H	670.274	689.897644	26.217951
+Lomaiviticin C M+H	670.274	692.68866	14.125
+Lomaiviticin C M+H	670.274	699.22583	29.35556
+Lomaiviticin C M+H	670.274	700.76001	19.493589
+Lomaiviticin C M+H	670.274	701.141724	107.325798
+Lomaiviticin C M+H	670.274	702.129944	46.72414
+Lomaiviticin C M+H	670.274	703.14032	38.23064
+Lomaiviticin C M+H	670.274	720.150879	20.64015
+Lomaiviticin C M+H	670.274	730.392151	13.13225
+Lomaiviticin C M+H	670.274	740.76416	14.11111
+Lomaiviticin C M+H	670.274	754.395569	11.63377
+Lomaiviticin C M+H	670.274	779.833191	18.185181
+Lomaiviticin C M+H	670.274	781.790222	14.92064
+Lomaiviticin C M+H	670.274	797.810608	16.72464
+Lomaiviticin C M+H	670.274	799.914673	40.51804
+Lomaiviticin C M+H	670.274	810.678894	22.00102
+Lomaiviticin C M+H	670.274	815.409302	13.49597
+Lomaiviticin C M+H	670.274	818.436646	33.679489
+Lomaiviticin C M+H	670.274	832.266174	19.334351
+Lomaiviticin C M+H	670.274	845.455322	10.52273
+Lomaiviticin C M+H	670.274	865.483215	16.33889
+Lomaiviticin C M+H	670.274	876.292419	10.33654
+Lomaiviticin C M+H	670.274	885.141052	17.42857
+Lomaiviticin C M+H	670.274	892.659729	22.947371
+Lomaiviticin C M+H	670.274	899.170227	24.58333
+Lomaiviticin C M+H	670.274	933.278687	33.360359
+Lomaiviticin C M+H	670.274	952.032288	16.125
+Lomaiviticin C M+H	670.274	964.481567	19.130381
+Lomaiviticin C M+H	670.274	973.001709	15.00641
+Dolastatin_16 M+Na	901.4	609.1875	798137
+Dolastatin_16 M+Na	901.4	706.349609	4739895
+Dolastatin_16 M+Na	901.4	707.287842	2554871
+Dolastatin_16 M+Na	901.4	732.370605	3338014
+Dolastatin_16 M+Na	901.4	733.398071	1697467
+Dolastatin_16 M+Na	901.4	750.414429	1427914
+Dolastatin_16 M+Na	901.4	751.250854	1666666
+Dolastatin_16 M+Na	901.4	774.34436	1094321
+Dolastatin_16 M+Na	901.4	804.302002	2818413
+Dolastatin_16 M+Na	901.4	805.325684	2772605
+Dolastatin_16 M+Na	901.4	873.386353	5935840
+Dolastatin_16 M+Na	901.4	874.37561	5530513
+Dolastatin_16 M+Na	901.4	901.384766	74561056
+Dolastatin_16 M+Na	901.4	902.368896	25653992
+Triacetylfusarinine C [Al3+] M+H	877	309.14212	19.685898
+Triacetylfusarinine C [Al3+] M+H	877	327.1633	20.880383
+Triacetylfusarinine C [Al3+] M+H	877	421.195129	28.170431
+Triacetylfusarinine C [Al3+] M+H	877	422.194977	18.622715
+Triacetylfusarinine C [Al3+] M+H	877	481.261993	19.59359
+Triacetylfusarinine C [Al3+] M+H	877	505.279144	32.034515
+Triacetylfusarinine C [Al3+] M+H	877	523.276978	19.18651
+Triacetylfusarinine C [Al3+] M+H	877	529.283752	14.523018
+Triacetylfusarinine C [Al3+] M+H	877	531.277039	18.071472
+Triacetylfusarinine C [Al3+] M+H	877	534.254883	62.014889
+Triacetylfusarinine C [Al3+] M+H	877	547.204041	146.797867
+Triacetylfusarinine C [Al3+] M+H	877	552.245972	42.331524
+Triacetylfusarinine C [Al3+] M+H	877	565.218628	91.92495
+Triacetylfusarinine C [Al3+] M+H	877	575.168152	603.170654
+Triacetylfusarinine C [Al3+] M+H	877	591.342346	17.77075
+Triacetylfusarinine C [Al3+] M+H	877	592.269287	37.96146
+Triacetylfusarinine C [Al3+] M+H	877	593.191956	1376.760254
+Triacetylfusarinine C [Al3+] M+H	877	611.204712	183.152847
+Triacetylfusarinine C [Al3+] M+H	877	660.352844	44.571571
+Triacetylfusarinine C [Al3+] M+H	877	662.378113	16.387449
+Triacetylfusarinine C [Al3+] M+H	877	688.332825	67.849663
+Triacetylfusarinine C [Al3+] M+H	877	689.383545	23.304792
+Triacetylfusarinine C [Al3+] M+H	877	702.354553	23.747543
+Triacetylfusarinine C [Al3+] M+H	877	704.332275	19.307997
+Triacetylfusarinine C [Al3+] M+H	877	705.255005	118.23629
+Triacetylfusarinine C [Al3+] M+H	877	723.328796	14.224494
+Triacetylfusarinine C [Al3+] M+H	877	730.358337	46.928257
+Triacetylfusarinine C [Al3+] M+H	877	732.351868	30.990192
+Triacetylfusarinine C [Al3+] M+H	877	737.371277	52.55061
+Triacetylfusarinine C [Al3+] M+H	877	747.392395	34.585464
+Triacetylfusarinine C [Al3+] M+H	877	748.355469	71.36618
+Triacetylfusarinine C [Al3+] M+H	877	750.28656	99.429047
+Triacetylfusarinine C [Al3+] M+H	877	765.267151	311.693085
+Triacetylfusarinine C [Al3+] M+H	877	789.421448	79.689079
+Triacetylfusarinine C [Al3+] M+H	877	790.399231	15.465545
+Triacetylfusarinine C [Al3+] M+H	877	815.42157	24.935163
+Triacetylfusarinine C [Al3+] M+H	877	817.390259	62.735756
+Triacetylfusarinine C [Al3+] M+H	877	831.422424	96.026726
+Triacetylfusarinine C [Al3+] M+H	877	833.440125	58.392525
+Triacetylfusarinine C [Al3+] M+H	877	835.416748	30.493099
+Triacetylfusarinine C [Al3+] M+H	877	841.423828	25.387402
+Triacetylfusarinine C [Al3+] M+H	877	849.305176	231.466949
+Triacetylfusarinine C [Al3+] M+H	877	859.301697	740.482971
+Triacetylfusarinine C [Al3+] M+H	877	860.312012	42.54491
+Triacetylfusarinine C [Al3+] M+H	877	877.557129	32.388737
+Triacetylfusarinine C [Al3+] M+H	877	878.58197	13.800312
+Heme B / Porphyrin M+H	616.177	543.272766	46205.539062
+Heme B / Porphyrin M+H	616.177	544.272766	23161.0625
+Heme B / Porphyrin M+H	616.177	556.272766	20301.449219
+Heme B / Porphyrin M+H	616.177	557.272766	1024318.6875
+Heme B / Porphyrin M+H	616.177	558.181824	352449.40625
+Heme B / Porphyrin M+H	616.177	598.181824	32893.832031
+Heme B / Porphyrin M+H	616.177	599.272766	13968.068359
+Heme B / Porphyrin M+H	616.177	601.181824	15795.853516
+h_193_quinbolone_m M-H2O+H	271.205	80.061462	1298.889771
+h_193_quinbolone_m M-H2O+H	271.205	81.069679	36238.855469
+h_193_quinbolone_m M-H2O+H	271.205	81.076157	2731.04248
+h_193_quinbolone_m M-H2O+H	271.205	81.091095	1024.978638
+h_193_quinbolone_m M-H2O+H	271.205	83.048897	1372.099854
+h_193_quinbolone_m M-H2O+H	271.205	91.054047	100621.164062
+h_193_quinbolone_m M-H2O+H	271.205	91.059799	6055.578125
+h_193_quinbolone_m M-H2O+H	271.205	92.061752	1507.314087
+h_193_quinbolone_m M-H2O+H	271.205	93.069679	24161.089844
+h_193_quinbolone_m M-H2O+H	271.205	93.076569	1390.584839
+h_193_quinbolone_m M-H2O+H	271.205	95.049202	2166.622314
+h_193_quinbolone_m M-H2O+H	271.205	95.084923	6809.504395
+h_193_quinbolone_m M-H2O+H	271.205	97.064713	8796.950195
+h_193_quinbolone_m M-H2O+H	271.205	103.054245	11827.819336
+h_193_quinbolone_m M-H2O+H	271.205	103.061295	1261.97937
+h_193_quinbolone_m M-H2O+H	271.205	104.061798	1426.754639
+h_193_quinbolone_m M-H2O+H	271.205	105.069817	59424.238281
+h_193_quinbolone_m M-H2O+H	271.205	105.076607	3609.131104
+h_193_quinbolone_m M-H2O+H	271.205	105.093925	1382.129028
+h_193_quinbolone_m M-H2O+H	271.205	107.085602	9250.210938
+h_193_quinbolone_m M-H2O+H	271.205	115.054298	20602.683594
+h_193_quinbolone_m M-H2O+H	271.205	115.06237	1091.240112
+h_193_quinbolone_m M-H2O+H	271.205	116.061729	5831.090332
+h_193_quinbolone_m M-H2O+H	271.205	117.069908	20054.03125
+h_193_quinbolone_m M-H2O+H	271.205	119.085518	16548.892578
+h_193_quinbolone_m M-H2O+H	271.205	127.054337	5762.236816
+h_193_quinbolone_m M-H2O+H	271.205	128.062042	31006.806641
+h_193_quinbolone_m M-H2O+H	271.205	128.069427	2199.329346
+h_193_quinbolone_m M-H2O+H	271.205	129.069946	19997.496094
+h_193_quinbolone_m M-H2O+H	271.205	130.077438	5599.965332
+h_193_quinbolone_m M-H2O+H	271.205	131.085541	10356.203125
+h_193_quinbolone_m M-H2O+H	271.205	132.092575	1171.868042
+h_193_quinbolone_m M-H2O+H	271.205	133.064545	1365.394287
+h_193_quinbolone_m M-H2O+H	271.205	133.101562	3795.250488
+h_193_quinbolone_m M-H2O+H	271.205	141.06958	15999.885742
+h_193_quinbolone_m M-H2O+H	271.205	141.077515	1026.105835
+h_193_quinbolone_m M-H2O+H	271.205	142.077438	16354.65625
+h_193_quinbolone_m M-H2O+H	271.205	143.085632	11183.557617
+h_193_quinbolone_m M-H2O+H	271.205	144.093506	3058.664062
+h_193_quinbolone_m M-H2O+H	271.205	145.101547	4136
+h_193_quinbolone_m M-H2O+H	271.205	152.061722	2523.779297
+h_193_quinbolone_m M-H2O+H	271.205	153.069763	6935.160156
+h_193_quinbolone_m M-H2O+H	271.205	154.077896	4764.503906
+h_193_quinbolone_m M-H2O+H	271.205	155.085358	7234.001465
+h_193_quinbolone_m M-H2O+H	271.205	155.092911	1023.913025
+h_193_quinbolone_m M-H2O+H	271.205	156.093506	1968.875
+h_193_quinbolone_m M-H2O+H	271.205	157.10112	2715.425293
+h_193_quinbolone_m M-H2O+H	271.205	159.116852	2282.528564
+h_193_quinbolone_m M-H2O+H	271.205	165.06987	5399.724121
+h_193_quinbolone_m M-H2O+H	271.205	166.078156	1439.770996
+h_193_quinbolone_m M-H2O+H	271.205	167.086151	4688.231445
+h_193_quinbolone_m M-H2O+H	271.205	169.101074	2839.79834
+h_193_quinbolone_m M-H2O+H	271.205	181.101212	3465.692627
+h_193_quinbolone_m M-H2O+H	271.205	183.117325	1568.433716
+h_193_quinbolone_m M-H2O+H	271.205	197.132294	1389.972778
+h_193_quinbolone_m M-H2O+H	271.205	223.148849	1167.946533
+h_193_quinbolone_m 2M+Na	599.407	82.119919	7.25
+h_193_quinbolone_m 2M+Na	599.407	82.82254	10
+h_193_quinbolone_m 2M+Na	599.407	83.660645	12.041667
+h_193_quinbolone_m 2M+Na	599.407	89.824661	5.125
+h_193_quinbolone_m 2M+Na	599.407	90.694313	8.375
+h_193_quinbolone_m 2M+Na	599.407	92.678268	5.125
+h_193_quinbolone_m 2M+Na	599.407	94.028168	10
+h_193_quinbolone_m 2M+Na	599.407	94.653236	12.225
+h_193_quinbolone_m 2M+Na	599.407	97.021706	5
+h_193_quinbolone_m 2M+Na	599.407	100.605797	7.375
+h_193_quinbolone_m 2M+Na	599.407	100.80545	22.5
+h_193_quinbolone_m 2M+Na	599.407	101.3162	5.125
+h_193_quinbolone_m 2M+Na	599.407	107.900803	5.5
+h_193_quinbolone_m 2M+Na	599.407	111.915222	5.125
+h_193_quinbolone_m 2M+Na	599.407	114.216187	5.125
+h_193_quinbolone_m 2M+Na	599.407	114.714516	5.375
+h_193_quinbolone_m 2M+Na	599.407	117.056702	5.125
+h_193_quinbolone_m 2M+Na	599.407	118.196312	5
+h_193_quinbolone_m 2M+Na	599.407	119.01516	5.375
+h_193_quinbolone_m 2M+Na	599.407	122.194565	5.125
+h_193_quinbolone_m 2M+Na	599.407	122.443237	25.5625
+h_193_quinbolone_m 2M+Na	599.407	123.182434	5.375
+h_193_quinbolone_m 2M+Na	599.407	123.254211	10.125
+h_193_quinbolone_m 2M+Na	599.407	124.809235	5.125
+h_193_quinbolone_m 2M+Na	599.407	130.706665	8
+h_193_quinbolone_m 2M+Na	599.407	131.819778	5.625
+h_193_quinbolone_m 2M+Na	599.407	132.062683	9
+h_193_quinbolone_m 2M+Na	599.407	132.125916	5.125
+h_193_quinbolone_m 2M+Na	599.407	138.089569	265.5
+h_193_quinbolone_m 2M+Na	599.407	138.141785	15.75
+h_193_quinbolone_m 2M+Na	599.407	141.425659	9.041667
+h_193_quinbolone_m 2M+Na	599.407	142.201797	5
+h_193_quinbolone_m 2M+Na	599.407	142.468582	7.25
+h_193_quinbolone_m 2M+Na	599.407	143.248749	5
+h_193_quinbolone_m 2M+Na	599.407	147.202866	12.125
+h_193_quinbolone_m 2M+Na	599.407	148.751877	7.25
+h_193_quinbolone_m 2M+Na	599.407	150.2603	5.375
+h_193_quinbolone_m 2M+Na	599.407	153.08992	5.125
+h_193_quinbolone_m 2M+Na	599.407	153.106781	8.025
+h_193_quinbolone_m 2M+Na	599.407	153.5681	5.125
+h_193_quinbolone_m 2M+Na	599.407	157.353455	9
+h_193_quinbolone_m 2M+Na	599.407	158.931976	9.375
+h_193_quinbolone_m 2M+Na	599.407	160.160263	5.125
+h_193_quinbolone_m 2M+Na	599.407	162.976288	19.5
+h_193_quinbolone_m 2M+Na	599.407	163.720688	5
+h_193_quinbolone_m 2M+Na	599.407	166.448532	5.125
+h_193_quinbolone_m 2M+Na	599.407	166.974457	352.25
+h_193_quinbolone_m 2M+Na	599.407	167.004456	26.556818
+h_193_quinbolone_m 2M+Na	599.407	168.782913	15.083333
+h_193_quinbolone_m 2M+Na	599.407	170.216751	5.125
+h_193_quinbolone_m 2M+Na	599.407	183.988983	5.375
+h_193_quinbolone_m 2M+Na	599.407	184.677536	5.5
+h_193_quinbolone_m 2M+Na	599.407	189.385071	6.5
+h_193_quinbolone_m 2M+Na	599.407	189.847153	6.125
+h_193_quinbolone_m 2M+Na	599.407	193.063782	5.125
+h_193_quinbolone_m 2M+Na	599.407	194.005569	6.25
+h_193_quinbolone_m 2M+Na	599.407	202.29985	6
+h_193_quinbolone_m 2M+Na	599.407	204.977966	25.013889
+h_193_quinbolone_m 2M+Na	599.407	215.745056	6.125
+h_193_quinbolone_m 2M+Na	599.407	219.482498	6.25
+h_193_quinbolone_m 2M+Na	599.407	224.89917	280.306824
+h_193_quinbolone_m 2M+Na	599.407	224.910889	54.083332
+h_193_quinbolone_m 2M+Na	599.407	224.92662	20.25
+h_193_quinbolone_m 2M+Na	599.407	224.936371	5.125
+h_193_quinbolone_m 2M+Na	599.407	224.979736	12.025
+h_193_quinbolone_m 2M+Na	599.407	225.665146	5
+h_193_quinbolone_m 2M+Na	599.407	228.095428	8.25
+h_193_quinbolone_m 2M+Na	599.407	228.670639	6.375
+h_193_quinbolone_m 2M+Na	599.407	237.053619	14.125
+h_193_quinbolone_m 2M+Na	599.407	241.924332	5.25
+h_193_quinbolone_m 2M+Na	599.407	244.948135	7
+h_193_quinbolone_m 2M+Na	599.407	246.255478	10
+h_193_quinbolone_m 2M+Na	599.407	251.027145	11.041667
+h_193_quinbolone_m 2M+Na	599.407	253.093521	6.125
+h_193_quinbolone_m 2M+Na	599.407	253.720139	9.025
+h_193_quinbolone_m 2M+Na	599.407	255.931549	6.375
+h_193_quinbolone_m 2M+Na	599.407	257.371124	48.284092
+h_193_quinbolone_m 2M+Na	599.407	257.483398	5.375
+h_193_quinbolone_m 2M+Na	599.407	258.190125	5.375
+h_193_quinbolone_m 2M+Na	599.407	264.05249	5.25
+h_193_quinbolone_m 2M+Na	599.407	265.107117	6.75
+h_193_quinbolone_m 2M+Na	599.407	268.016083	9.375
+h_193_quinbolone_m 2M+Na	599.407	268.963531	5.25
+h_193_quinbolone_m 2M+Na	599.407	269.077209	7.875
+h_193_quinbolone_m 2M+Na	599.407	270.643097	13.083333
+h_193_quinbolone_m 2M+Na	599.407	276.177582	5.025
+h_193_quinbolone_m 2M+Na	599.407	284.988525	10.125
+h_193_quinbolone_m 2M+Na	599.407	285.003387	5
+h_193_quinbolone_m 2M+Na	599.407	286.124603	11.25
+h_193_quinbolone_m 2M+Na	599.407	288.079926	6
+h_193_quinbolone_m 2M+Na	599.407	288.103088	5.25
+h_193_quinbolone_m 2M+Na	599.407	288.388214	6.125
+h_193_quinbolone_m 2M+Na	599.407	289.997925	6.125
+h_193_quinbolone_m 2M+Na	599.407	290.206665	19.225
+h_193_quinbolone_m 2M+Na	599.407	291.146332	5
+h_193_quinbolone_m 2M+Na	599.407	296.381927	21.25
+h_193_quinbolone_m 2M+Na	599.407	298.339935	5.25
+h_193_quinbolone_m 2M+Na	599.407	299.742035	5.25
+h_193_quinbolone_m 2M+Na	599.407	305.801453	14
+h_193_quinbolone_m 2M+Na	599.407	326.30838	5.25
+h_193_quinbolone_m 2M+Na	599.407	330.109467	12.041667
+h_193_quinbolone_m 2M+Na	599.407	332.198456	7.041667
+h_193_quinbolone_m 2M+Na	599.407	334.937073	6.125
+h_193_quinbolone_m 2M+Na	599.407	335.373962	5.25
+h_193_quinbolone_m 2M+Na	599.407	340.304504	5.375
+h_193_quinbolone_m 2M+Na	599.407	340.637115	10
+h_193_quinbolone_m 2M+Na	599.407	340.947327	6.75
+h_193_quinbolone_m 2M+Na	599.407	341.457855	5.375
+h_193_quinbolone_m 2M+Na	599.407	343.97229	6
+h_193_quinbolone_m 2M+Na	599.407	346.12851	5.25
+h_193_quinbolone_m 2M+Na	599.407	364.358215	6.125
+h_193_quinbolone_m 2M+Na	599.407	374.975006	13.025
+h_193_quinbolone_m 2M+Na	599.407	376.68924	6
+h_193_quinbolone_m 2M+Na	599.407	379.085327	5.25
+h_193_quinbolone_m 2M+Na	599.407	382.963562	5.25
+h_193_quinbolone_m 2M+Na	599.407	391.034088	6.125
+h_193_quinbolone_m 2M+Na	599.407	392.98288	6
+h_193_quinbolone_m 2M+Na	599.407	409.572998	7.875
+h_193_quinbolone_m 2M+Na	599.407	415.170013	25.25
+h_193_quinbolone_m 2M+Na	599.407	430.205261	5.025
+h_193_quinbolone_m 2M+Na	599.407	433.478455	5.375
+h_193_quinbolone_m 2M+Na	599.407	439.652435	17.017857
+h_193_quinbolone_m 2M+Na	599.407	442.850372	9.125
+h_193_quinbolone_m 2M+Na	599.407	446.753235	10.041667
+h_193_quinbolone_m 2M+Na	599.407	447.562683	6.125
+h_193_quinbolone_m 2M+Na	599.407	459.369415	13.125
+h_193_quinbolone_m 2M+Na	599.407	464.102173	14.041667
+h_193_quinbolone_m 2M+Na	599.407	466.334656	5.125
+h_193_quinbolone_m 2M+Na	599.407	466.585114	171.222824
+h_193_quinbolone_m 2M+Na	599.407	466.631653	9.125
+h_193_quinbolone_m 2M+Na	599.407	468.149689	5.125
+h_193_quinbolone_m 2M+Na	599.407	468.225555	30
+h_193_quinbolone_m 2M+Na	599.407	469.305542	5.125
+h_193_quinbolone_m 2M+Na	599.407	472.184479	5.625
+h_193_quinbolone_m 2M+Na	599.407	473.368835	8
+h_193_quinbolone_m 2M+Na	599.407	474.887329	5.125
+h_193_quinbolone_m 2M+Na	599.407	479.27359	5
+h_193_quinbolone_m 2M+Na	599.407	493.872955	10.25
+h_193_quinbolone_m 2M+Na	599.407	497.553284	9.125
+h_193_quinbolone_m 2M+Na	599.407	498.369171	10.125
+h_193_quinbolone_m 2M+Na	599.407	508.651123	43.160713
+h_193_quinbolone_m 2M+Na	599.407	512.111633	12
+h_193_quinbolone_m 2M+Na	599.407	520.317139	6
+h_193_quinbolone_m 2M+Na	599.407	531.386841	27
+h_193_quinbolone_m 2M+Na	599.407	534.932007	6.25
+h_193_quinbolone_m 2M+Na	599.407	535.180908	5.625
+h_193_quinbolone_m 2M+Na	599.407	538.993225	5.375
+h_193_quinbolone_m 2M+Na	599.407	541.030579	5.125
+h_193_quinbolone_m 2M+Na	599.407	541.780212	6.125
+h_193_quinbolone_m 2M+Na	599.407	543.148071	12.125
+h_193_quinbolone_m 2M+Na	599.407	544.666321	6.5
+h_193_quinbolone_m M+Na	311.198	87.227654	5.125
+h_193_quinbolone_m M+Na	311.198	99.612282	12.041667
+h_193_quinbolone_m M+Na	311.198	101.873047	7.25
+h_193_quinbolone_m M+Na	311.198	103.054489	39.375
+h_193_quinbolone_m M+Na	311.198	107.65612	11.5
+h_193_quinbolone_m M+Na	311.198	119.896149	5.125
+h_193_quinbolone_m M+Na	311.198	122.538506	9
+h_193_quinbolone_m M+Na	311.198	129.787735	8.375
+h_193_quinbolone_m M+Na	311.198	136.793274	16.225
+h_193_quinbolone_m M+Na	311.198	143.821823	16
+h_193_quinbolone_m M+Na	311.198	153.574738	11.375
+h_193_quinbolone_m M+Na	311.198	156.795425	12.375
+h_193_quinbolone_m M+Na	311.198	200.408966	5.625
+h_193_quinbolone_m M+Na	311.198	204.108826	5.125
+h_193_quinbolone_m M+Na	311.198	208.264343	6.125
+h_193_quinbolone_m M+Na	311.198	217.0233	18.083334
+h_193_quinbolone_m M+Na	311.198	222.545319	5.375
+h_193_quinbolone_m M+Na	311.198	222.860321	25.0625
+h_193_quinbolone_m M+Na	311.198	226.841904	6.75
+h_193_quinbolone_m M+Na	311.198	248.826599	79.199997
+h_193_quinbolone_m M+Na	311.198	253.330917	56.680557
+h_193_quinbolone_m M+Na	311.198	253.341919	11.25
+h_193_quinbolone_m M+Na	311.198	328.227081	5.375
+h_193_quinbolone_m M+Na	311.198	331.9104	6.375
+h_193_quinbolone_m M+Na	311.198	351.089294	16.041666
+h_193_quinbolone_m M+Na	311.198	360.494049	10.375
+h_193_quinbolone_m M+Na	311.198	363.39505	5.25
+h_193_quinbolone_m M+Na	311.198	372.014191	6.375
+h_193_quinbolone_m M+Na	311.198	379.024017	13
+h_193_quinbolone_m M+Na	311.198	406.746155	19.041666
+h_193_quinbolone_m M+Na	311.198	411.289703	5
+h_193_quinbolone_m M+Na	311.198	422.363129	7.875
+h_193_quinbolone_m M+Na	311.198	424.403229	6.75
+h_193_quinbolone_m M+Na	311.198	437.625885	9.125
+h_193_quinbolone_m M+Na	311.198	455.467499	6.125
+h_193_quinbolone_m M+Na	311.198	467.438599	5
+h_193_quinbolone_m M+Na	311.198	515.223694	6.75
