@@ -195,9 +195,9 @@ julia --threads auto src/OptiMS.jl \
   --optimization_method grid \
   --params_to_optimize all \
   --metric MRR \
-  --n_grid_points 3 \
+  --n_grid_points 2 \
   --LB_LET_thresh 0.0 \
-  --UB_LET_thresh 5.0
+  --UB_LET_thresh 5.0 \
   --LB_noise_thresh 0.0 \
   --UB_noise_thresh 1.0 \
   --LB_wf_int 0.0 \
