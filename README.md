@@ -1,5 +1,5 @@
-# OptiMS
-OptiMS is a Julia-based command-line tool for tuning parameters involved in preprocessing (i) nominal-resolution mass spectrometry (NRMS) data such as gas chromatography - mass spectrometry data and (ii) high-resolution mass spectrometry (HRMS) data such as liquid chromatography - tandem mass spectrometry data. The three main functionalities of OptiMS are (i) identifying optimal parameters via differential evolution, (ii) identifying optimal parameters via exhaustive grid-based search, and (iii) simply running compound identification and recording similarity scores.
+# MSTune
+MSTune is a Julia-based command-line tool for tuning parameters involved in preprocessing (i) nominal-resolution mass spectrometry (NRMS) data such as gas chromatography - mass spectrometry data and (ii) high-resolution mass spectrometry (HRMS) data such as liquid chromatography - tandem mass spectrometry data. The three main functionalities of MSTune are (i) identifying optimal parameters via differential evolution, (ii) identifying optimal parameters via exhaustive grid-based search, and (iii) simply running compound identification and recording similarity scores.
 
 
 ## Table of Contents
@@ -13,7 +13,7 @@ OptiMS is a Julia-based command-line tool for tuning parameters involved in prep
 
 <a name="install-dependencies"></a>
 ## 1. Install dependencies
-The Julia packages required to run OptiMS are BlackBoxOptim, CSV, DataFrames, LinearAlgebra, Random, Statistics, and StatsBase. These dependencies can be installed with the Julia command:
+The Julia packages required to run MSTune are BlackBoxOptim, CSV, DataFrames, LinearAlgebra, Random, Statistics, and StatsBase. These dependencies can be installed with the Julia command:
 
 ```
 using Pkg; Pkg.add(["BlackBoxOptim", "CSV", "DataFrames", "LinearAlgebra","Random", "Statistics", "StatsBase"])
@@ -85,7 +85,7 @@ Thus, there are two weight factor parameters, one noise removal threshold parame
 Given a pair of processed spectra intensities
 $I=(a_{1},a_{2},...,a_{n}), J=(b_{1},b_{2},...,b_{n})\in\mathbb{R}^{n}$
 with $0\leq a_{i},b_{i}\leq 1$ for all $i\in\{1,2,...,n\}$ and
-$\sum_{i=1}^{n}a_{i}=\sum_{i=1}^{n}b_{i}=1$, OptiMS computes the Cosine similarity between the two spectra:
+$\sum_{i=1}^{n}a_{i}=\sum_{i=1}^{n}b_{i}=1$, MSTune computes the Cosine similarity between the two spectra:
 ```math
 S_{Cosine}(I,J)=\frac{I\circ J}{|I|_{2}\cdot |J|_{2}}
 ```
@@ -95,7 +95,7 @@ where multiplication in the numerator refers to the dot product $I\circ J=a_{1}b
 <a name="functionality"></a>
 ## 3. Functionality
 
-OptiMS has three main capabilities:
+MSTune has three main capabilities:
 1. Tune parameters to maximize either cross-validated accuracy or cross-validated mean reciprocal rank (MRR) via differential evolution optimization.
 2. Compute the cross-validated accuracy or cross-validated MRR for every set of parameters in a user-defined grid of possible parameters.
 3. Compute the similarity scores between every query spectrum and every reference spectrum for a single user-defined choice of parameters.
@@ -108,15 +108,15 @@ cd toy_examples
 ./test_run_compound_identification.sh
 ```
 
-To view the OptiMS usage instruction, one can run the following from the command-line (once the necessary Julia dependencies are installed):
+To view the MSTune usage instruction, one can run the following from the command-line (once the necessary Julia dependencies are installed):
 ```
-julia src/OptiMS.jl --help
+julia src/MSTune.jl --help
 ```
 
-The complete usage instructions for OptiMS are:
+The complete usage instructions for MSTune are:
 ```
 Usage:
-  julia OptiMS.jl --query_data <string> --reference_data <string> --output <string> --platform <string> --optimization_method <string> --metric <string> --crossvalidation <boolean> --filter_reference_candidates <boolean> --n_folds <int> --bootstrap_query <boolean> --random_seed <int> --params_to_optimize <string> --spectrum_preprocessing_order <string> --LB_LET_thresh <float> --UB_LET_thresh <float> --LB_noise_thresh <float> --UB_noise_thresh <float> --LB_wf_int <float> --UB_wf_int <float> --LB_wf_mz <float> --UB_wf_mz <float> --LET_thresh <float> --noise_thresh <float> --wf_int <float> --wf_mz <float> --threads <int> --max_steps <int> --pop_size <int> --n_grid_points <int>
+  julia MSTune.jl --query_data <string> --reference_data <string> --output <string> --platform <string> --optimization_method <string> --metric <string> --crossvalidation <boolean> --filter_reference_candidates <boolean> --n_folds <int> --bootstrap_query <boolean> --random_seed <int> --params_to_optimize <string> --spectrum_preprocessing_order <string> --LB_LET_thresh <float> --UB_LET_thresh <float> --LB_noise_thresh <float> --UB_noise_thresh <float> --LB_wf_int <float> --UB_wf_int <float> --LB_wf_mz <float> --UB_wf_mz <float> --LET_thresh <float> --noise_thresh <float> --wf_int <float> --wf_mz <float> --threads <int> --max_steps <int> --pop_size <int> --n_grid_points <int>
 
 
 Arguments:
@@ -162,7 +162,7 @@ Arguments:
 ### 3.1 Optimize parameters via differential evolution
 To identify optimal parameters to maximize the metric (e.g. accuracy in this case) using differential evolution optimization with user-specified parameter bounds and maximum number of steps, one can run:
 ```
-julia --threads auto src/OptiMS.jl \
+julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
   --reference_data toy_examples/data/gcms_reference.txt \
   --output toy_examples/output_DE_tuning.txt \
@@ -187,7 +187,7 @@ julia --threads auto src/OptiMS.jl \
 ### 3.2 Optimize parameters via exhaustive grid search
 To record the metric (e.g. MRR in this case) for each combination of parameters in a user-specified grid of parameters with user-specified parameter bounds, one can run:
 ```
-julia --threads auto src/OptiMS.jl \
+julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
   --reference_data toy_examples/data/gcms_reference.txt \
   --output toy_examples/output_grid_tuning.txt \
@@ -210,7 +210,7 @@ julia --threads auto src/OptiMS.jl \
 ### 3.3 Run compound identification
 To simply run compound identification and record all similarity scores with user-specified parameters, one can run:
 ```
-julia --threads auto src/OptiMS.jl \
+julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
   --reference_data toy_examples/data/gcms_reference.txt \
   --output toy_examples/output_similarity_scores.txt \

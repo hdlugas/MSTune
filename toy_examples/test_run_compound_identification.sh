@@ -3,7 +3,7 @@
 cd ${PWD}/..
 echo -e "\nRunning compound identification...\n"
 
-julia --threads auto src/OptiMS.jl \
+julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
   --reference_data toy_examples/data/gcms_reference.txt \
   --output toy_examples/output_similarity_scores_NRMS.txt \
@@ -14,7 +14,7 @@ julia --threads auto src/OptiMS.jl \
   --wf_intensity 1.5 \
   --wf_mz 0.5
 
-julia --threads auto src/OptiMS.jl \
+julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/lcmsms_query.txt \
   --reference_data toy_examples/data/lcmsms_reference.txt \
   --output toy_examples/output_similarity_scores_HRMS.txt \

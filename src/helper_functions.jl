@@ -6,10 +6,10 @@ using StatsBase
 
 function print_help()
     println("""
-Help Message for OptiMS.jl
+Help Message for MSTune.jl
 
 Usage:
-  julia OptiMS.jl \
+  julia MSTune.jl \
     --query_data <string> \
     --reference_data <string> \
     --output <string> \
@@ -150,7 +150,7 @@ function parse_args()
     #end
 
     if !(args["--params_to_optimize"] in ["all","LET_thresh","noise_thresh","wf_int","wf_mz"])
-        println("Error: invalid params_to_optimize parameter. Run <julia OptiMS.jl --help> for usage instructions")
+        println("Error: invalid params_to_optimize parameter. Run <julia MSTune.jl --help> for usage instructions")
     end
 
     if !(args["--optimization_method"] in ["DE","grid","none"])

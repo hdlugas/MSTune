@@ -3,7 +3,7 @@
 cd ${PWD}/..
 echo -e "\nTuning parameters via exhaustive grid-search...\n"
 
-julia --threads auto src/OptiMS.jl \
+julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
   --reference_data toy_examples/data/gcms_reference.txt \
   --output toy_examples/output_grid_tuning_NRMS.txt \
@@ -21,7 +21,7 @@ julia --threads auto src/OptiMS.jl \
   --LB_wf_mz 0.0 \
   --UB_wf_mz 5.0
 
-julia --threads auto src/OptiMS.jl \
+julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/lcmsms_query.txt \
   --reference_data toy_examples/data/lcmsms_reference.txt \
   --output toy_examples/output_grid_tuning_HRMS.txt \
