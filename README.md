@@ -1,5 +1,5 @@
 # MSTune
-MSTune is a Julia-based command-line tool for tuning parameters involved in preprocessing (i) nominal-resolution mass spectrometry (NRMS) data such as gas chromatography - mass spectrometry data and (ii) high-resolution mass spectrometry (HRMS) data such as liquid chromatography - tandem mass spectrometry data. The three main functionalities of MSTune are (i) identifying optimal parameters via differential evolution, (ii) identifying optimal parameters via exhaustive grid-based search, and (iii) simply running compound identification and recording similarity scores.
+MSTune is a Julia-based command-line tool for tuning parameters involved in preprocessing (i) nominal-resolution mass spectrometry (NRMS) data, such as gas chromatography-mass spectrometry (GC-MS), and (ii) high-resolution mass spectrometry (HRMS) data, such as liquid chromatography-mass spectrometry (LC-MS). MSTune provides three main functionalities: (i) identifying optimal parameters via differential evolution (DE), (ii) identifying optimal parameters via grid search, and (iii) simply running compound identification and recording similarity scores.
 
 
 ## Table of Contents
@@ -9,19 +9,19 @@ MSTune is a Julia-based command-line tool for tuning parameters involved in prep
    - [3.1 Optimize parameters via differential evolution](#DE)
    - [3.2 Optimize parameters via exhausive grid search](#grid-search)
    - [3.3 Run compound identification](#run-compound-identification)
-
+- [4. Citation](#citation)
 
 <a name="install-dependencies"></a>
 ## 1. Install dependencies
 The Julia packages required to run MSTune are BlackBoxOptim, CSV, DataFrames, LinearAlgebra, Random, Statistics, and StatsBase. These dependencies can be installed with the Julia command:
 
 ```
-using Pkg; Pkg.add(["BlackBoxOptim", "CSV", "DataFrames", "LinearAlgebra","Random", "Statistics", "StatsBase"])
+using Pkg; Pkg.add(["BlackBoxOptim", "CSV", "DataFrames", "LinearAlgebra", "Random", "Statistics", "StatsBase"])
 ```
 
 <a name="param-descriptions"></a>
 # 2. Parameter descriptions
-The following five spectrum preprocessing transformations are offered:
+The following spectrum preprocessing and transformation steps are offered:
 
 -   Weight Factor Transformation: Given a pair of user-defined weight
     factor parameters $(\text{a,b})$ and spectrum $I$ with m/z values
@@ -79,8 +79,7 @@ The following five spectrum preprocessing transformations are offered:
     $w_{centroiding}$ of each other.
 
 
-
-Thus, there are two weight factor parameters, one noise removal threshold parameter, one low-entropy threshold parameter, and in the case of HRMS, two window-size parameters one can tweak.
+Thus, there are two weight-factor parameters, one noise-removal threshold parameter, one low-entropy threshold parameter, and, in the case of HRMS, two window-size parameters that can be adjusted.
 
 Given a pair of processed spectra intensities
 $I=(a_{1},a_{2},...,a_{n}), J=(b_{1},b_{2},...,b_{n})\in\mathbb{R}^{n}$
@@ -96,11 +95,11 @@ where multiplication in the numerator refers to the dot product $I\circ J=a_{1}b
 ## 3. Functionality
 
 MSTune has three main capabilities:
-1. Tune parameters to maximize either cross-validated accuracy or cross-validated mean reciprocal rank (MRR) via differential evolution optimization.
+1. Tune parameters to maximize either cross-validated accuracy or cross-validated mean reciprocal rank (MRR) via DE optimization.
 2. Compute the cross-validated accuracy or cross-validated MRR for every set of parameters in a user-defined grid of possible parameters.
 3. Compute the similarity scores between every query spectrum and every reference spectrum for a single user-defined choice of parameters.
 
-Scripts which run toy examples illustrating each of these three methods are provided. These toy examples can be run by navigating to the necessary directory and executing the scripts:
+Scripts that run toy examples illustrating each of these three methods are provided. These toy examples can be run by navigating to the necessary directory and executing the scripts:
 ```
 cd toy_examples
 ./test_DE_optimization.sh
@@ -108,7 +107,7 @@ cd toy_examples
 ./test_run_compound_identification.sh
 ```
 
-To view the MSTune usage instruction, one can run the following from the command-line (once the necessary Julia dependencies are installed):
+To view the MSTune usage instructions, one can run the following from the command line (once the necessary Julia dependencies are installed):
 ```
 julia src/MSTune.jl --help
 ```
@@ -128,7 +127,7 @@ Arguments:
   --metric                        Quantity to maximize in the objective function (optional, options=[accuracy,MRR], default=accuracy).
   --crossvalidation               Boolean indicating whether or not to perform 5-fold cross-validation inside the objective function (optional, options=[true,false], default=true).
   --filter_reference_candidates   Boolean indicating whether or not to filter on precursor ion mass/charge; only applicable to HRMS data (optional, options=[true,false], default=true).
-  --n_folds                       Number folds to use for cross-validation. Only applicable for crossvalidation is 'true' and optimization_method is not 'none' (optional, default=5).
+  --n_folds                       Number of folds to use for cross-validation. Only applicable when crossvalidation is 'true' and optimization_method is not 'none' (optional, default=5).
   --bootstrap_query               Boolean indicating whether or not to construct query dataset of same size from resampling query spectra with replacement; only useful for computing confidence intervals of parameter estimates (optional, options=[true,false], default=false).
   --random_seed                   Random seed to be used in all computations with a stochastic component (optional, default=1).
   --params_to_optimize            String denoting the parameters to optimize (optional, options='all','LET_thresh','noise_thresh','wf_int','wf_mz', default='all').
@@ -160,7 +159,7 @@ Arguments:
 
 <a name="DE"></a>
 ### 3.1 Optimize parameters via differential evolution
-To identify optimal parameters to maximize the metric (e.g. accuracy in this case) using differential evolution optimization with user-specified parameter bounds and maximum number of steps, one can run:
+To identify optimal parameters to maximize the metric (e.g., accuracy in this case) using differential evolution optimization with user-specified parameter bounds and maximum number of steps, one can run:
 ```
 julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
@@ -185,7 +184,7 @@ julia --threads auto src/MSTune.jl \
 
 <a name="grid-search"></a>
 ### 3.2 Optimize parameters via exhaustive grid search
-To record the metric (e.g. MRR in this case) for each combination of parameters in a user-specified grid of parameters with user-specified parameter bounds, one can run:
+To record the metric (e.g., MRR in this case) for each combination of parameters in a user-specified grid of parameters with user-specified parameter bounds, one can run:
 ```
 julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
@@ -222,3 +221,7 @@ julia --threads auto src/MSTune.jl \
   --wf_mz 0.5
 ```
 
+<a name="citation"></a>
+## 4. Citation
+
+Hunter Dlugas, Jing Li, Xiang Zhang, and Seongho Kim. “MSTune: A data-driven approach to parameter tuning using grid search and differential evolution for gas chromatography–mass spectrometry–based compound identification.” Submitted, 2026.
