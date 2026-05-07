@@ -7,7 +7,7 @@ MSTune is a Julia-based command-line tool for tuning parameters involved in prep
 - [2. Parameter descriptions](#param-descriptions)
 - [3. Functionality](#functionality)
    - [3.1 Optimize parameters via differential evolution](#DE)
-   - [3.2 Optimize parameters via exhausive grid search](#grid-search)
+   - [3.2 Optimize parameters via grid search](#grid-search)
    - [3.3 Run compound identification](#run-compound-identification)
 - [4. Citation](#citation)
 
@@ -159,7 +159,7 @@ Arguments:
 
 <a name="DE"></a>
 ### 3.1 Optimize parameters via differential evolution
-To identify optimal parameters to maximize the metric (e.g., accuracy in this case) using differential evolution optimization with user-specified parameter bounds and maximum number of steps, one can run:
+To identify optimal parameters to maximize the metric (e.g., accuracy in this case) using DE optimization with user-specified parameter bounds and maximum number of steps, one can run:
 ```
 julia --threads auto src/MSTune.jl \
   --query_data toy_examples/data/gcms_query.txt \
@@ -183,7 +183,7 @@ julia --threads auto src/MSTune.jl \
 ```
 
 <a name="grid-search"></a>
-### 3.2 Optimize parameters via exhaustive grid search
+### 3.2 Optimize parameters via grid search
 To record the metric (e.g., MRR in this case) for each combination of parameters in a user-specified grid of parameters with user-specified parameter bounds, one can run:
 ```
 julia --threads auto src/MSTune.jl \
