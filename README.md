@@ -21,7 +21,7 @@ using Pkg; Pkg.add(["BlackBoxOptim", "CSV", "DataFrames", "LinearAlgebra","Rando
 
 <a name="param-descriptions"></a>
 # 2. Parameter descriptions
-The following two spectrum preprocessing transformations are offered:
+The following five spectrum preprocessing transformations are offered:
 
 -   Weight Factor Transformation: Given a pair of user-defined weight
     factor parameters $(\text{a,b})$ and spectrum $I$ with m/z values
