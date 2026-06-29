@@ -12,7 +12,7 @@ MSTune is a Julia-based command-line tool for tuning parameters involved in prep
 - [4. Citation](#citation)
 
 <a name="install-dependencies"></a>
-## 1. Install dependencies
+# 1. Install dependencies
 The Julia packages required to run MSTune are BlackBoxOptim, CSV, DataFrames, LinearAlgebra, Random, Statistics, and StatsBase. These dependencies can be installed with the Julia command:
 
 ```
@@ -92,7 +92,7 @@ where multiplication in the numerator refers to the dot product $I\circ J=a_{1}b
 
 
 <a name="functionality"></a>
-## 3. Functionality
+# 3. Functionality
 
 MSTune has three main capabilities:
 1. Tune parameters to maximize either cross-validated accuracy or cross-validated mean reciprocal rank (MRR) via DE optimization.
@@ -158,7 +158,7 @@ Arguments:
 ```
 
 <a name="DE"></a>
-### 3.1 Optimize parameters via differential evolution
+## 3.1 Optimize parameters via differential evolution
 To identify optimal parameters to maximize the metric (e.g., accuracy in this case) using DE optimization with user-specified parameter bounds and maximum number of steps, one can run:
 ```
 julia --threads auto src/MSTune.jl \
@@ -183,7 +183,7 @@ julia --threads auto src/MSTune.jl \
 ```
 
 <a name="grid-search"></a>
-### 3.2 Optimize parameters via grid search
+## 3.2 Optimize parameters via grid search
 To record the metric (e.g., MRR in this case) for each combination of parameters in a user-specified grid of parameters with user-specified parameter bounds, one can run:
 ```
 julia --threads auto src/MSTune.jl \
@@ -206,7 +206,7 @@ julia --threads auto src/MSTune.jl \
 ```
 
 <a name="run-compound-identification"></a>
-### 3.3 Run compound identification
+## 3.3 Run compound identification
 To simply run compound identification and record all similarity scores with user-specified parameters, one can run:
 ```
 julia --threads auto src/MSTune.jl \
@@ -222,6 +222,5 @@ julia --threads auto src/MSTune.jl \
 ```
 
 <a name="citation"></a>
-## 4. Citation
-
-Hunter Dlugas, Jing Li, Xiang Zhang, and Seongho Kim. “MSTune: A data-driven approach to parameter tuning using grid search and differential evolution for gas chromatography–mass spectrometry–based compound identification.” Submitted, 2026.
+# 4. Citation
+Dlugas, H., Li, J., Zhang, X., & Kim, S. (2026). MSTune: A Data-Driven Approach to Parameter Tuning Using Grid Search and Differential Evolution for Gas Chromatography–Mass Spectrometry-Based Compound Identification. Metabolites, 16(6), 428. https://doi.org/10.3390/metabo16060428
